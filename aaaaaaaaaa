@@ -1,0 +1,850 @@
+[33mcommit 342cda6a052f913b14458d3f568338608898ee0c[m
+Merge: 9f39f20 b804fdb
+Author: dambii say77 <saytan77saytan@gmail.com>
+Date:   Wed Dec 13 18:09:12 2017 +0800
+
+    Merge branch 'master' of https://bitbucket.org/uuganbaatar/backend_beeco
+
+[33mcommit 9f39f2056fe937881e1e0c9c7c754801f88c3893[m
+Author: dambii say77 <saytan77saytan@gmail.com>
+Date:   Wed Dec 13 18:08:55 2017 +0800
+
+    11.13
+
+[33mcommit b804fdbd40b2f80c568fe7a28a274be2b5880711[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Wed Dec 13 17:59:20 2017 +0800
+
+    Bug fixed
+
+[33mcommit be2017024776dc511d59687b8c6ffe2389b266b2[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 17:02:07 2017 +0800
+
+    Mobicom changed
+
+[33mcommit 87227c1807822b4b48b59ecd7a77f29c429d69f9[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 16:56:14 2017 +0800
+
+    Mobicom changed to Skytel
+
+[33mcommit 06b0de605f05a134799027c0fbdc8a022ff52878[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 16:23:56 2017 +0800
+
+    Bug fixed
+
+[33mcommit 199e75510212589cfeda614e0655e143cf82e422[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 16:21:58 2017 +0800
+
+    Test
+
+[33mcommit 585d877184f353894ba3b62f87587988042871ec[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 16:18:34 2017 +0800
+
+    123
+
+[33mcommit 489ee2f6da68f788607f9ad1fa950e33ee3601b1[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 16:00:45 2017 +0800
+
+    Bug fixed
+
+[33mcommit 8720746f705d309e14000e2b1601d2815b9a66ce[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Tue Dec 12 15:41:37 2017 +0800
+
+    Bug fixed
+
+[33mcommit 4cba1860f5cb21cfe199350b79b4d6b4d66da4c6[m
+Author: Altansuh <sw10d239@gmail.com>
+Date:   Fri Dec 8 20:37:11 2017 +0800
+
+    Poi integration
+
+[33mcommit 529fe36553f0bf698d6164a535567b578dbd80fe[m
+Author: dambii say77 <saytan77saytan@gmail.com>
+Date:   Thu Dec 7 15:12:39 2017 +0800
+
+    authcontroller.js msg
+
+[33mcommit ea56e29487ec79354e44f0d6e6c80eadd121d60d[m
+Author: dambii say77 <saytan77saytan@gmail.com>
+Date:   Thu Dec 7 10:33:37 2017 +0800
+
+    login result
+
+[33mcommit 079278d3c45eefb828af94b6224c98ed069c2fb9[m
+Author: dambii say77 <saytan77saytan@gmail.com>
+Date:   Tue Dec 5 15:02:36 2017 +0800
+
+    msg
+
+[33mcommit 75fa6a843967f8fd7fecc528c3b5b155b4bb155d[m
+Author: dambii say77 <saytan77saytan@gmail.com>
+Date:   Fri Dec 1 20:30:26 2017 +0800
+
+    facebook image
+
+[33mcommit 5bbeb0501a40bc1fd7e8d96c8a2ea2d73e894a73[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Nov 30 17:47:13 2017 +0800
+
+    merge
+
+[33mcommit 38e00110cea6394e4ac18f4978f9616cca7ccb6e[m
+Merge: 998249e 9389849
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Nov 30 17:46:12 2017 +0800
+
+    Merge branch 'master' of https://bitbucket.org/uuganbaatar/backend_beeco
+
+[33mcommit 998249ee88071942b147b9e6108351417613e67e[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Nov 30 17:45:39 2017 +0800
+
+    camera profile change
+
+[33mcommit 938984905b21e77c191798aeccb45da525b634e7[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Nov 28 15:45:44 2017 +0800
+
+    public directory deleted
+
+[33mcommit 1f5cea7b40bce31aebbad604fc995045e910e8b8[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 28 12:52:59 2017 +0800
+
+    change
+
+[33mcommit 4f837e4b27a337ba31453ace1a3d708a38a176b1[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 28 10:34:57 2017 +0800
+
+    last
+
+[33mcommit 5d3cf7b6e289ce239ec3de6dab6ff46e2fa60509[m
+Merge: 8cec6fd 270b671
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 28 09:37:41 2017 +0800
+
+    merge
+
+[33mcommit 8cec6fdea331957df216b314da3ddf38ed0de4eb[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 28 09:35:31 2017 +0800
+
+    11.28
+
+[33mcommit 270b671c96e129746f5882e8e21720c5f793755e[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Nov 28 09:34:45 2017 +0800
+
+    Bug
+
+[33mcommit 30bb7d515b19eafe8410aac6c41271bd897650e3[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Nov 27 19:38:32 2017 +0800
+
+    googl cloud storage
+
+[33mcommit 6bec0d7c7c12526dc01995187fab73b7d3706cca[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Nov 24 18:43:21 2017 +0800
+
+    google cloud image
+
+[33mcommit 49a92f3448596b6042b9355626b1269d43384a2b[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 13:05:51 2017 +0800
+
+    Bug
+
+[33mcommit c2da96d396e9ab34ef8935967cffa5d7314f94a5[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 12:58:45 2017 +0800
+
+    Bug
+
+[33mcommit 9fe3ea3ff2315a10a02aede579e6d335157146aa[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 12:16:54 2017 +0800
+
+    Bug
+
+[33mcommit 9a4102b6157e39d3665a595795f74d527f94e4ce[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 12:13:51 2017 +0800
+
+    Bug
+
+[33mcommit e5b738475855dfaf813a8961c2b71e9e72401eed[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 12:11:55 2017 +0800
+
+    Bug
+
+[33mcommit 2f968bd6a69e06d63e37bec3ecc19754db249273[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 12:06:44 2017 +0800
+
+    Bug
+
+[33mcommit 46abb57891ef2bb0a55f424b06919dd47a22b7a5[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 11:12:11 2017 +0800
+
+    Bug
+
+[33mcommit 75080640b6fd0701a982855ca0d170df45c9595c[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 11:04:20 2017 +0800
+
+    Bug
+
+[33mcommit 66b78ee2654990c2877abdba198aa3e373024003[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 23 11:01:28 2017 +0800
+
+    PhotoCopy Test
+
+[33mcommit 05b7e3c1a6d72bbdc131faf8247f54b41fdbf466[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Wed Nov 22 17:40:20 2017 +0800
+
+    Console.log removed
+
+[33mcommit 0a29919ac2abecd8128d9141a3075f419f9aba70[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Wed Nov 22 15:45:34 2017 +0800
+
+    Lib
+
+[33mcommit 1cd5f141e2fa8ba1fa54dd3a95837d86b7c15f76[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Wed Nov 22 15:27:02 2017 +0800
+
+    lib package
+
+[33mcommit a4ebde223e33aa482444cbc59cbc12d76e79204b[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Wed Nov 22 14:56:03 2017 +0800
+
+    Package json rearrenged
+
+[33mcommit ea742cc57ac1ae320f9c40c905984038403af9f0[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Wed Nov 22 14:47:35 2017 +0800
+
+    Production
+
+[33mcommit 80d562bfc9cf1a958e3445b64e19513554a530c0[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Nov 21 18:11:51 2017 +0800
+
+    Environment
+
+[33mcommit 3d18f76167e143b3119009e4d1ee177637c2f12d[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Mon Nov 20 17:33:01 2017 +0800
+
+    Folder Structure changed.
+
+[33mcommit f7b15b97ab055f47cab7fdaf5358004b740f9fab[m
+Merge: c23076e 94db0fa
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 16 12:48:50 2017 +0800
+
+    Merge branch 'master' of https://bitbucket.org/uuganbaatar/backend_beeco
+
+[33mcommit c23076ef66bbff9a38e4fe38312c88738338908a[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Nov 16 12:48:20 2017 +0800
+
+    Bug
+
+[33mcommit 94db0fae83b32d345687f901efe289fd8aedf0ba[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Nov 15 17:06:36 2017 +0800
+
+    11.15
+
+[33mcommit b8191fc80ebc24b8c2fab95c20408bcad4bd34cb[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Nov 15 16:45:56 2017 +0800
+
+    car iamge size
+
+[33mcommit 67ad6cd9965ec44b67d3398eb5dc7d8e0aeafe86[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Nov 14 17:12:01 2017 +0800
+
+    Avatar pic
+
+[33mcommit ac9cf93ab05b118c065ba65f8d77bf0cc227ae72[m
+Merge: 2a0b62c 8aa78e9
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 14 16:54:30 2017 +0800
+
+    last commit 11.14nd
+
+[33mcommit 8aa78e93f826abd45186759f23eac1f1069866bd[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 14 16:42:27 2017 +0800
+
+    zassan 11.14nd
+
+[33mcommit 2a0b62cd2b485d4d4f271f9bee8e2bb0d62e6737[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Nov 14 16:20:43 2017 +0800
+
+    Bug fixed
+
+[33mcommit bf0ca3f6c00c3ad2fbd24fe6184608e19c52154d[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Nov 14 12:29:51 2017 +0800
+
+    Bug fixed
+
+[33mcommit 6ff8f6912de17c0a7e30375e00e8b5d4e9c9cbfe[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Nov 13 18:25:05 2017 +0800
+
+    last merge
+
+[33mcommit 0ee4ae5ce69ec99c7800c7a262507c7727be57ec[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Mon Nov 13 18:02:13 2017 +0800
+
+    Bug fixed
+
+[33mcommit 3a21a19915f3862c42102e04f0a489ecf39d1acd[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Nov 10 17:59:17 2017 +0800
+
+    zaswar
+
+[33mcommit f2540d3b40d1dc6e545b38a88555f6fdee976869[m
+Merge: 5ebc1cf 1cf3c30
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Nov 10 14:28:31 2017 +0800
+
+    Merge branch 'mergeBranch'
+
+[33mcommit 1cf3c309389847603b64ece1e52b674626746a10[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Nov 10 14:27:19 2017 +0800
+
+    photo change
+
+[33mcommit 5ebc1cfb1e8a7f5e84509e498ddc5aaf62a85568[m
+Merge: cc96b42 57cf3d6
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Nov 10 14:18:27 2017 +0800
+
+    Merge branch 'master' of https://bitbucket.org/uuganbaatar/backend_beeco
+
+[33mcommit cc96b4289a1c40282825f57a720fec16c4eecf11[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Nov 10 14:17:50 2017 +0800
+
+    Bug Fixed
+
+[33mcommit 9d46937783e412f0fca705826e6f447f4d1512f4[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Nov 10 14:09:19 2017 +0800
+
+    photo
+
+[33mcommit 57cf3d626b8c34411d1161b806e2d21979013aa4[m
+Merge: 19f313d 0c158cc
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Nov 8 09:55:59 2017 +0800
+
+    Merge branch 'textreview'
+
+[33mcommit 0c158cc7f85602b94bbc2531f6fc17ca9790908b[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Nov 7 19:57:15 2017 +0800
+
+    feedback push notification
+
+[33mcommit 19f313d8926e299c3238fc26362543b05d7cd698[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Mon Nov 6 18:35:39 2017 +0800
+
+    Bug fixed
+
+[33mcommit 74828e2e6f540ef96fed9e27489b53e61995ec67[m
+Merge: 25e48ce b785817
+Author: ithub <ithubdev@gmail.com>
+Date:   Sun Nov 5 13:59:38 2017 +0800
+
+    Merge branch 'zaswar'
+
+[33mcommit 25e48ce8740ef87f5202664b0a68054a7a3b7513[m
+Merge: 5e90d97 2332b1b
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Sun Nov 5 13:54:02 2017 +0800
+
+    Minor bug fixed
+
+[33mcommit 5e90d971b90e468e9384fa6476b0691d8c4c9acf[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Sun Nov 5 13:48:18 2017 +0800
+
+    Minor bug fixed
+
+[33mcommit b78581740ebf093527e84e00edb1ddfb1c7a41b7[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Sun Nov 5 12:35:04 2017 +0800
+
+    last commit
+
+[33mcommit fb7346cfeec2d5ddc2ad5fab4b1f1819bad26b72[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Nov 3 21:29:40 2017 +0800
+
+    delete account
+
+[33mcommit 35e244e8ef43987b4c8b70525cafa79722c29488[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Nov 2 21:40:01 2017 +0800
+
+    text review
+
+[33mcommit badb57ce28202d970afc6a2b4574f07b234282a8[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Nov 1 19:04:09 2017 +0800
+
+    zaswar11-1nd
+
+[33mcommit abba9bb84ed915ce52ba06af9dc7c414b4da0985[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Nov 1 19:02:47 2017 +0800
+
+    zaswar11-1
+
+[33mcommit 2332b1b5819b40e241e2cda6326dabb46eb3676e[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Nov 1 10:06:07 2017 +0800
+
+    merge
+
+[33mcommit 8e2c804366fe49b04f74be62a1f14956f894cad8[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 31 19:09:50 2017 +0800
+
+    branch1030
+
+[33mcommit 96c87d70770996538ddad69b7c791fe248275180[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Oct 30 11:21:11 2017 +0800
+
+    test
+
+[33mcommit dfa86b4e039cc756d3ddaeb994e86e6b50a5090f[m
+Merge: 6b7facd e3cdd30
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 27 16:55:14 2017 +0800
+
+    Merge branch 'master' of https://bitbucket.org/uuganbaatar/backend_beeco
+
+[33mcommit 6b7facda5305f1ed44924d698d9a4b2dcfe7e675[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 27 16:54:24 2017 +0800
+
+    Bug fixed
+
+[33mcommit e3cdd309c59e8c7a97b20cf91f3ce821f797fc89[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 27 14:34:42 2017 +0800
+
+    last
+
+[33mcommit 5adebd8dec49c2e30b076e0adf1caeca67e6a09b[m
+Merge: 151b68b 8698405
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 27 12:26:50 2017 +0800
+
+    merge -> branch
+
+[33mcommit 151b68b7499b9feef6f910e13371ceda9718d0ea[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 27 12:12:15 2017 +0800
+
+    prev merge
+
+[33mcommit 8698405f3486617819e30c8333309427134570fe[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 27 12:10:30 2017 +0800
+
+    Bug fixed
+
+[33mcommit e114903a5c9c500ec9c1b81572ccf4b0142072d7[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Oct 26 22:23:49 2017 +0800
+
+    zassan
+
+[33mcommit 244c82fc7e981f81296f312895a1f8b7ceb16d5d[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Oct 26 22:23:21 2017 +0800
+
+    zassan
+
+[33mcommit 05cfb09f4bb63340f26f4b1ed5aae1de0ca90b5d[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Thu Oct 26 18:04:34 2017 +0800
+
+    Bug fixed
+
+[33mcommit a7715d98deff89c56293e01da0acef1fa851530a[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 24 18:40:03 2017 +0800
+
+    zaswar
+
+[33mcommit ce150f3989fb60242b954997ff9c136e790753ea[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 24 18:39:40 2017 +0800
+
+    zaswar
+
+[33mcommit b7b041b2cb1270a3d7d0df1da71655382839f029[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Oct 23 10:40:53 2017 +0800
+
+    merge change
+
+[33mcommit 9cd24ac0af79d4d61bd1c0b95c69bbf2dbf14874[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 20 18:09:59 2017 +0800
+
+    zassan\
+
+[33mcommit e425b2a695cf8ed566593fcb5d4adba1c18b165f[m
+Merge: e8823ac 9cfeeb8
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 20 16:37:08 2017 +0800
+
+    Merge branch 'newCode'
+
+[33mcommit 9cfeeb88f2ceed3aa01134914c41976b131b40de[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 20 16:18:32 2017 +0800
+
+    chamge edit profile
+
+[33mcommit 17d7e7b53157de2bfc7e8edefc081f337c78bd5f[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 20 16:17:55 2017 +0800
+
+    change profile image
+
+[33mcommit e8823ac41a40bcd0b8b9662e9ff1045dc59caf32[m
+Merge: 991df45 d3ba792
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 20 15:00:47 2017 +0800
+
+    Merged
+
+[33mcommit 991df459576054e25fe98ac23d82e19b39932c6a[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 20 14:57:16 2017 +0800
+
+    Improvement
+
+[33mcommit 0611135d3a66bb0c1a50e15f169f60c7dcd9d6fd[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Oct 19 18:56:27 2017 +0800
+
+    image
+
+[33mcommit 7e80e261b2c02f258c4ba09465f9b7a0f84628ff[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Oct 18 19:49:30 2017 +0800
+
+    10.18
+
+[33mcommit 9be4740767b2b655fa07e2b45d1601e3088a58fa[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 17 21:39:49 2017 +0800
+
+    phone
+
+[33mcommit 64013ece22726d5e32a096e07d16d93eee4f9307[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Oct 16 18:03:33 2017 +0800
+
+    feedback
+
+[33mcommit d3ba792cf10b7fa1086035d790e726e18d8fb5e3[m
+Merge: d27f1f8 d156664
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 13 18:05:47 2017 +0800
+
+    Merge branch 'lastbranch'
+
+[33mcommit d1566649c5115e0ac34749b6efcf201334279164[m
+Merge: 8482127 a697499
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 13 18:01:08 2017 +0800
+
+    ride buddies
+
+[33mcommit d27f1f8a1824d107fdd58fe43690760cc1a560e6[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 13 15:50:18 2017 +0800
+
+    Ride feedback
+
+[33mcommit 8044f5530bd76bc950247a7046b5f99f066114b5[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Oct 13 14:56:55 2017 +0800
+
+    Ride feedback
+
+[33mcommit 8482127211164ad60b150a539c41472c2918e1ad[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 10 18:05:12 2017 +0800
+
+    add delete car
+
+[33mcommit 7b92e91da05bc3ebce2bbe9137b03719cc69be50[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 10 18:03:59 2017 +0800
+
+    car add
+
+[33mcommit a697499d756a23f184723c6cf3cfe3f59dd9c8db[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Oct 10 18:00:47 2017 +0800
+
+    POI integration
+
+[33mcommit fd72ae8a1699c5fcad7e1fc68d8a6f8afe913b2f[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Oct 6 22:48:55 2017 +0800
+
+    forgot password
+
+[33mcommit 596c8575bbcb7cc298e0bb8aeb60537bdc0fce23[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Oct 5 17:32:42 2017 +0800
+
+    105
+
+[33mcommit 1b9a3a8224be9ce463595df340ce4123668c8069[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Oct 3 20:05:56 2017 +0800
+
+    changePassword
+
+[33mcommit 221d3cc2a6469e8aaa2ade7f075ba36b10bae80f[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Tue Oct 3 10:03:11 2017 +0800
+
+    Registration
+
+[33mcommit bbaffd9b255613714b0525efee5c75247eb64ef8[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Sep 29 16:36:17 2017 +0800
+
+    Class name fixed
+
+[33mcommit 7e8a6764f0b905fbc26f789cd1cdbdc3a243035b[m
+Merge: d487051 bbb7ec7
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Sep 29 16:30:55 2017 +0800
+
+    merge master
+
+[33mcommit d48705187740dae464f244181c2c2eb4a4cb59d5[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Sep 29 15:46:13 2017 +0800
+
+    9.29
+
+[33mcommit bbb7ec76a7b208b2538c7c2cd667b8a10296002c[m
+Author: AkilLis <gan.tuvshinbat@gmail.com>
+Date:   Fri Sep 29 15:39:21 2017 +0800
+
+    Lot's of feature out there
+
+[33mcommit cf3093594c4dfa121a972169d1c1edc9bf0f6e18[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Sep 28 15:43:18 2017 +0800
+
+    FlatList
+
+[33mcommit 2aaa4ac9b13ee51e808732daef039b5f3ba144ad[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Sep 27 17:42:43 2017 +0800
+
+    changePass
+
+[33mcommit 697c5a93706b04d4074e980221a565868585ccf0[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Sep 26 20:04:55 2017 +0800
+
+    changes
+
+[33mcommit c2b1fc325df45d2df8971dd7ed9f1338c679941f[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Sep 22 18:55:47 2017 +0800
+
+    publicProfile
+
+[33mcommit 050c65ee7076e2f9b59bf2753bd5567bf40876e6[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Sep 21 19:11:15 2017 +0800
+
+    allChanges
+
+[33mcommit 9a619729e13b2f5573b37f8e365fccbbd6cf7485[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Sep 20 18:14:31 2017 +0800
+
+    9/20
+
+[33mcommit df3003a62cb2b4e4dc735646b568b0439104b3c6[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Sep 19 18:49:16 2017 +0800
+
+    car list
+
+[33mcommit 4008145186e0e64823ba463eda7b9dcda3fc1318[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Tue Sep 19 09:50:28 2017 +0800
+
+    add car
+
+[33mcommit f75f89e68caf1a7a9d8cc54fc5b2a4a3b62c4599[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Sep 11 15:31:03 2017 +0800
+
+    911nd
+
+[33mcommit 68d4fb9f7e857f16dc83957955998bd74113f10b[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Fri Sep 8 16:39:09 2017 +0800
+
+    edit profile
+
+[33mcommit e174513db6eb5147b982b17031983ae85b0e511c[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Sep 7 20:00:38 2017 +0800
+
+    97last
+
+[33mcommit 9dcfe97b662341fed1222e42618410e0dc686af3[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Thu Sep 7 19:50:04 2017 +0800
+
+    9sariin7
+
+[33mcommit d08549f7e486b8966104cda774f0c01ef3a9e05a[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Tue Sep 5 17:32:49 2017 +0800
+
+    Push notificaion
+
+[33mcommit 9d3aed7ee44180e0ddc9d03dcd608763b6633cda[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Mon Sep 4 17:54:15 2017 +0800
+
+    Delete notification
+
+[33mcommit 81c3221ca42502005f7cadcf24c2314290c22a3a[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Thu Aug 31 18:37:49 2017 +0800
+
+    Push notification
+
+[33mcommit feb4e1235f444fba9229ce6dfd96afcaffb96b56[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Fri Aug 25 18:17:32 2017 +0800
+
+    Lot's of improvement
+
+[33mcommit 3e9b513cf7d5eb8028d54d950e7b06035f6a95a2[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Aug 23 19:01:41 2017 +0800
+
+    My message
+
+[33mcommit f92ee13c5fbe5bed3ca8467c5407aca4450dec3f[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Wed Aug 23 18:45:05 2017 +0800
+
+    dashboard
+
+[33mcommit c5e4f4ad5ef96b43ba7a335e7c42d8439b23a3a0[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Aug 23 18:17:13 2017 +0800
+
+    ACtive ride seat toggle feature
+
+[33mcommit d4897eab4ce07cd7e001ddc4dfc7c772d105c597[m
+Author: ithub <ithubdev@gmail.com>
+Date:   Mon Aug 21 19:03:42 2017 +0800
+
+    no message
+
+[33mcommit 1c3ebcd3575b6907f62a5062fd05cce0e4edced1[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Mon Aug 21 17:56:59 2017 +0800
+
+    Get group chat by ride
+
+[33mcommit 1dfd0b92efa034f91726036173c15b54ff27beed[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Fri Aug 18 18:45:30 2017 +0800
+
+    Improvement
+
+[33mcommit 4c623d70f71078fbaf02330973f84e48a444b503[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Aug 16 18:24:50 2017 +0800
+
+    Group Chat
+
+[33mcommit ea688f02952b60d293974085d05b51f077cfaafd[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Aug 16 09:33:06 2017 +0800
+
+    Lots of feature added
+
+[33mcommit 7314e5e8bc6d2af8834a341bc468f42e590bc4b8[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Mon Aug 14 19:50:13 2017 +0800
+
+    Message feature
+
+[33mcommit 3742ab6894a9926fd3e6c7bfa100975cb051ce00[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Aug 2 16:48:55 2017 +0800
+
+    Offer ride service
+
+[33mcommit 2a1d93526f2a9a901e7a1d1635d32fa0414b56f8[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Jul 26 10:02:56 2017 +0800
+
+    Read me doc created
+
+[33mcommit cff95e5ad100a8f425028f4215ac91c4588dea63[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Jul 26 09:58:42 2017 +0800
+
+    Remove the now ignored directory node_modules
+
+[33mcommit cf7267b3f2bfe5c50386b63804ba513c6bc5cada[m
+Author: tuvshoo <gan.tuvshinbat@gmail.com>
+Date:   Wed Jul 26 09:56:32 2017 +0800
+
+    First commit

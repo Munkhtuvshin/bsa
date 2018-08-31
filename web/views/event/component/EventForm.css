@@ -1,0 +1,77 @@
+.addForm{
+	width:60%;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+
+}
+.addform{
+	padding:30px;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 7px;	
+}
+.fnt{
+	font-size: 12px;
+}
+.marleft{
+	margin-left: 3%;		
+}
+.locationspan{
+	font-size:12px;
+	margin-left: 10px;
+}
+.displayNone{
+	display:none;
+}
+.center{
+	width:120px;
+		
+}
+.ad{
+	width: 100% !important;
+}
+.titlespan{
+	margin-top: 50px !important;
+	font-size: 12px;
+}
+.fullwidth{
+	width:100%;
+}
+.marginLef{
+	
+	color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+    cursor: default;
+    margin: 0 0 .28571429rem 0;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.self{
+	color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+    cursor: default;
+    margin: 0 0 .28571429rem 0;
+	margin-left: 1%;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.endAt{
+	font-size:12px;
+	padding-top: 35px;
+}
+.previewImg{
+	margin:10px;
+	display: inline-block;
+}
+.overflowX{
+	overflow-x: scroll;
+	white-space: nowrap;
+	align-content:top;
+	display: flex;
+	width:100%;
+}

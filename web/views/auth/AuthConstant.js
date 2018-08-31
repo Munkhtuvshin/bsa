@@ -1,0 +1,3 @@
+export const ON_LOGIN_ACTION = "DashboardState/ON_LOGIN_ACTION"
+export const ON_LOGIN_ACTION_FAILED = "DashboardState/ON_LOGIN_ACTION_FAILED"
+export const ON_LOGIN_ACTION_FULFILLED = "DashboardState/ON_LOGIN_ACTION_FULFILLED"

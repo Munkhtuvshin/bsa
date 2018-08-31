@@ -1,0 +1,4 @@
+export const GET_POPULAR_RIDES = "IntercityState/GET_POPULAR_RIDES"
+export const GET_POPULAR_RIDES_FULFILLED = "IntercityState/GET_POPULAR_RIDES_FULFILLED"
+export const GET_ALL_RIDES = "IntercityState/GET_ALL_RIDES"
+export const GET_ALL_RIDES_FULFILLED = "IntercityState/GET_ALL_RIDES_FULFILLED"
