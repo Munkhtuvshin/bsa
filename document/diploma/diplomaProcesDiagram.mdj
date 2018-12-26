@@ -1,0 +1,1060 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFmcvoKA27IM0Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFmcvoKA27JE+M=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwIn7nJEHAY=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwIn7XJC/7w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwIn73JFQMQ=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwIn7nJEHAY="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 58,
+									"width": 69.71630859375,
+									"height": 65,
+									"text": "Сургуулийн админ нарийн бичигийг томилно",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 48,
+							"width": 89.71630859375,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwIn73JFQMQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwLAaHJPWUg=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwLAaXJQ5PE=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwLAaHJPWUg="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 218,
+									"width": 63.52734375,
+									"height": 39,
+									"text": "Дипломын хичээл үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 208,
+							"width": 83.52734375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwLAaXJQ5PE="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwMVjXJZWTA=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwMVjHJXnQQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwMVjnJaBMI=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwMVjXJZWTA="
+									},
+									"font": "Arial;13;0",
+									"left": 690,
+									"top": 282,
+									"width": 71.22705078125,
+									"height": 52,
+									"text": "Диплом бичих оюутнуудаа нэмэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 680,
+							"top": 272,
+							"width": 91.22705078125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwMVjnJaBMI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwNII3JjVHE=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwNII3JhZD0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwNII3JkxHg=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwNII3JjVHE="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 290,
+									"width": 54.18994140625,
+									"height": 65,
+									"text": "Диплом удирдах багш нараа нэмэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 376,
+							"top": 280,
+							"width": 74.18994140625,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwNII3JkxHg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwO0w3JukGg=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwO0w3Jsi9M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwO0w3JvqdQ=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwO0w3JukGg="
+									},
+									"font": "Arial;13;0",
+									"left": 410,
+									"top": 450,
+									"width": 63.52734375,
+									"height": 52,
+									"text": "Дипломын удирдагч сэдэв оруулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 440,
+							"width": 83.52734375,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwO0w3JvqdQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwPvDXJ5OWE=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwPvDXJ3F1c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwPvDXJ67ss=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwPvDXJ5OWE="
+									},
+									"font": "Arial;13;0",
+									"left": 274,
+									"top": 394,
+									"width": 73.7978515625,
+									"height": 39,
+									"text": "Үйл ажиллаганы ирц бүртгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 264,
+							"top": 384,
+							"width": 93.7978515625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwPvDXJ67ss="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwRr8HKHEV0=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwRr8HKFYxI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwRr8HKI0LU=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwRr8HKHEV0="
+									},
+									"font": "Arial;13;0",
+									"left": 698,
+									"top": 394,
+									"width": 63.52734375,
+									"height": 39,
+									"text": "Дипломын сэдэв сонгох",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 688,
+							"top": 384,
+							"width": 83.52734375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwRr8HKI0LU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwSad3KQDb8=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwSad3KOdcM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwSad3KROk8=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwSad3KQDb8="
+									},
+									"font": "Arial;13;0",
+									"left": 682,
+									"top": 522,
+									"width": 54.18994140625,
+									"height": 78,
+									"text": "Багш нар оюутан бүрт үзлэгийн дүн өгнө",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 672,
+							"top": 512,
+							"width": 74.18994140625,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwSad3KROk8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwUVTnKa4NQ=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwUVTnKYNjU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwUVTnKbNEc=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwUVTnKa4NQ="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 338,
+									"width": 76,
+									"height": 65,
+									"text": "Нарийн бичиг нь үзлэгийн хуваарь оруулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 328,
+							"width": 96,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwUVTnKbNEc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFmcwVYS3KkIVA=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwVYSnKi5tQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFmcwVYS3KlVDc=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwVYS3KkIVA="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 482,
+									"width": 60,
+									"height": 65,
+									"text": "Үзлэгт оролцох багш нарыг нэмэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 472,
+							"width": 80,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwVYS3KlVDc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcwWsvnKvAh0=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwWsvnKtuZ8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcwWsv3KweQ4=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwWsvnKvAh0="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcwWsvnKtuZ8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 577,
+									"top": 163,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcwWsvnKvAh0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwLAaHJPWUg="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwIn7nJEHAY="
+							},
+							"lineStyle": 2,
+							"points": "563:132;563:208",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwWsv3KweQ4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcwXh6nK42SU=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwXh6nK22gA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcwXh6nK5mKU=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwXh6nK42SU="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcwXh6nK22gA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 540,
+									"top": 313,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcwXh6nK42SU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwNII3JjVHE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwLAaHJPWUg="
+							},
+							"lineStyle": 2,
+							"points": "541:266;541:304;449:304",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwXh6nK5mKU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcwXy/HLB/n0=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwXy/HK/1zg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcwXy/HLCyUw=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwXy/HLB/n0="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcwXy/HK/1zg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 583,
+									"top": 283,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcwXy/HLB/n0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwMVjXJZWTA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwLAaHJPWUg="
+							},
+							"lineStyle": 2,
+							"points": "583:266;583:304;680:304",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwXy/HLCyUw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcwagvXLL9wg=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcwagvHLJpf8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcwagvXLMEDw=",
+									"_parent": {
+										"$ref": "AAAAAAFmcwagvXLL9wg="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcwagvHLJpf8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 575,
+									"top": 290,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcwagvXLL9wg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwUVTnKa4NQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwLAaHJPWUg="
+							},
+							"lineStyle": 2,
+							"points": "561:266;561:328",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcwagvXLMEDw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcxAz/nLf/18=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcxAz/XLdA+I="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcxAz/nLg+zs=",
+									"_parent": {
+										"$ref": "AAAAAAFmcxAz/nLf/18="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcxAz/XLdA+I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 399,
+									"top": 417,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcxAz/nLf/18="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwPvDXJ5OWE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwNII3JjVHE="
+							},
+							"lineStyle": 2,
+							"points": "400:364;400:408;357:408",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcxAz/nLg+zs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcxBHynLpBn4=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcxBHynLnqR0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcxBHynLqsao=",
+									"_parent": {
+										"$ref": "AAAAAAFmcxBHynLpBn4="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcxBHynLnqR0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 437,
+									"top": 395,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcxBHynLpBn4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwO0w3JukGg="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwNII3JjVHE="
+							},
+							"lineStyle": 2,
+							"points": "423:364;423:440",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcxBHynLqsao="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcxDY0HL9XP8=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcxDY0HL7+lg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcxDY0HL+RT0=",
+									"_parent": {
+										"$ref": "AAAAAAFmcxDY0HL9XP8="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcxDY0HL7+lg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 740,
+									"top": 356,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcxDY0HL9XP8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwRr8HKHEV0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwMVjXJZWTA="
+							},
+							"lineStyle": 2,
+							"points": "726:343;726:384",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcxDY0HL+RT0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcxEFSnMG9kw=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcxEFSnMED4s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcxEFSnMHLLg=",
+									"_parent": {
+										"$ref": "AAAAAAFmcxEFSnMG9kw="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcxEFSnMED4s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 739,
+									"top": 470,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcxEFSnMG9kw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwSad3KQDb8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwRr8HKHEV0="
+							},
+							"lineStyle": 2,
+							"points": "725:442;725:512",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcxEFSnMHLLg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcxF7RXMP+UA=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcxF7RXMNb1c="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcxF7RXMQmmg=",
+									"_parent": {
+										"$ref": "AAAAAAFmcxF7RXMP+UA="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcxF7RXMNb1c="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 581,
+									"top": 435,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcxF7RXMP+UA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwVYS3KkIVA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwUVTnKa4NQ="
+							},
+							"lineStyle": 2,
+							"points": "567:412;567:472",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcxF7RXMQmmg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFmcxGdcnMY0Ng=",
+							"_parent": {
+								"$ref": "AAAAAAFmcvoKA27JE+M="
+							},
+							"model": {
+								"$ref": "AAAAAAFmcxGdcnMWLfY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFmcxGdcnMZuow=",
+									"_parent": {
+										"$ref": "AAAAAAFmcxGdcnMY0Ng="
+									},
+									"model": {
+										"$ref": "AAAAAAFmcxGdcnMWLfY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 639,
+									"top": 527,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFmcxGdcnMY0Ng="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFmcwSad3KQDb8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmcwVYS3KkIVA="
+							},
+							"lineStyle": 2,
+							"points": "607:548;672:548",
+							"nameLabel": {
+								"$ref": "AAAAAAFmcxGdcnMZuow="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwIn7XJC/7w=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Сургуулийн админ нарийн бичигийг томилно",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcwWsvnKtuZ8=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwIn7XJC/7w="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwIn7XJC/7w="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwLAaHJNfnw=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Дипломын хичээл үүсгэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcwXh6nK22gA=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwNII3JhZD0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcwXy/HK/1zg=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwMVjHJXnQQ="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcwagvHLJpf8=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwLAaHJNfnw="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwUVTnKYNjU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwMVjHJXnQQ=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Диплом бичих оюутнуудаа нэмэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcxDY0HL7+lg=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwMVjHJXnQQ="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwMVjHJXnQQ="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwRr8HKFYxI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwNII3JhZD0=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Диплом удирдах багш нараа нэмэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcxAz/XLdA+I=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwNII3JhZD0="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwNII3JhZD0="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwPvDXJ3F1c="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcxBHynLnqR0=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwNII3JhZD0="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwNII3JhZD0="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwO0w3Jsi9M="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwO0w3Jsi9M=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Дипломын удирдагч сэдэв оруулна"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwPvDXJ3F1c=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Үйл ажиллаганы ирц бүртгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwRr8HKFYxI=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Дипломын сэдэв сонгох",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcxEFSnMED4s=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwRr8HKFYxI="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwRr8HKFYxI="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwSad3KOdcM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwSad3KOdcM=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Багш нар оюутан бүрт үзлэгийн дүн өгнө"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwUVTnKYNjU=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Нарийн бичиг нь үзлэгийн хуваарь оруулна",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcxF7RXMNb1c=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwUVTnKYNjU="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwUVTnKYNjU="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwVYSnKi5tQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFmcwVYSnKi5tQ=",
+					"_parent": {
+						"$ref": "AAAAAAFmcvoKA27IM0Y="
+					},
+					"name": "Үзлэгт оролцох багш нарыг нэмэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFmcxGdcnMWLfY=",
+							"_parent": {
+								"$ref": "AAAAAAFmcwVYSnKi5tQ="
+							},
+							"source": {
+								"$ref": "AAAAAAFmcwVYSnKi5tQ="
+							},
+							"target": {
+								"$ref": "AAAAAAFmcwSad3KOdcM="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

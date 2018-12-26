@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1543477073 "inde.tex" "inde.pdf" "inde" 1543477073
+  "/etc/texmf/web2c/texmf.cnf" 1538020128 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540442136 4143744 5bfbb04e1aff49a03cd0a043c59ddc9f ""
+  "inde.aux" 1543472525 459 4d781640fa24a5d117b6c0655d908fc1 ""
+  "inde.tex" 1543477073 317 ce46d95408cfeb9c89ab6ad0dfeba354 ""
+  (generated)
+  "inde.log"
+  "inde.pdf"

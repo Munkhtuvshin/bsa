@@ -1,0 +1,7377 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFl9jTcJtg+Sl4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFl9jTcKNg/pO8=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Сургуулийн админ",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jZbbNhFy7w=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jZba9hDbzo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jZbbNhGa8g=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jZbbNhFy7w="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 66,
+									"width": 66.244140625,
+									"height": 13,
+									"text": "Бүртгүүлэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 120,
+							"top": 56,
+							"width": 86.244140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jZbbNhGa8g="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jgdbthQtz0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jgdbthOscw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jgdbthRmwM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jgdbthQtz0="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 146,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Нэвтрэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 136,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jgdbthRmwM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9jhWddhaSb8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jhWddhYp1w="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9jhWdthb4j0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jhWddhaSb8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9jhWddhYp1w="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 177,
+									"top": 105,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9jhWddhaSb8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9jgdbthQtz0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jZbbNhFy7w="
+							},
+							"lineStyle": 2,
+							"points": "163:88;163:136",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jhWdthb4j0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jkUbdhkCs4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jkUbdhiI+I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jkUbdhlY1g=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jkUbdhkCs4="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 226,
+									"width": 71.03662109375,
+									"height": 26,
+									"text": "Профайлаа бөглөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 120,
+							"top": 216,
+							"width": 91.03662109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jkUbdhlY1g="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9jlSrNhwjnM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jlSq9hulrM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9jlSrNhxt7Y=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jlSrNhwjnM="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9jlSq9hulrM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 185,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9jlSrNhwjnM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9jkUbdhkCs4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jgdbthQtz0="
+							},
+							"lineStyle": 2,
+							"points": "164:168;164:216",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jlSrNhxt7Y="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jnic9h5/28=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jnic9h3VhE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jnic9h6Gxs=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jnic9h5/28="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 314,
+									"width": 54.78662109375,
+									"height": 26,
+									"text": "Сургууль үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 304,
+							"width": 74.78662109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jnic9h6Gxs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9joKuNiCHOU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9joKuNiAY+c="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9joKuNiDdL4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9joKuNiCHOU="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9joKuNiAY+c="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 179,
+									"top": 275,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9joKuNiCHOU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9jnic9h5/28="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jkUbdhkCs4="
+							},
+							"lineStyle": 2,
+							"points": "165:261;165:304",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9joKuNiDdL4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jpMENiNO6E=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jpMENiLvcc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jpMENiOQIo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jpMENiNO6E="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 394,
+									"width": 69.71630859375,
+									"height": 52,
+									"text": "Сургуулийн тухай мэдээлэл оруулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 120,
+							"top": 384,
+							"width": 89.71630859375,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jpMENiOQIo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9jqga9il8Xo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jqga9ijkWQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9jqgbNimy9c=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jqga9il8Xo="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9jqga9ijkWQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 359,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9jqga9il8Xo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9jpMENiNO6E="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jnic9h5/28="
+							},
+							"lineStyle": 2,
+							"points": "164:349;164:384",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jqgbNimy9c="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9j5y+9kLtqI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9j5y+9kJRpU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9j5y+9kMQjQ=",
+									"_parent": {
+										"$ref": "AAAAAAFl9j5y+9kLtqI="
+									},
+									"font": "Arial;13;0",
+									"left": 242,
+									"top": 306,
+									"width": 69.71630859375,
+									"height": 39,
+									"text": "Сургуулийн админ болно",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 232,
+							"top": 296,
+							"width": 89.71630859375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9j5y+9kMQjQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9j6UFNkhSzQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jTcKNg/pO8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9j6UFNkfRwc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9j6UFNkiOSo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9j6UFNkhSzQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9j6UFNkfRwc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 217,
+									"top": 306,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9j6UFNkhSzQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9j5y+9kLtqI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jnic9h5/28="
+							},
+							"lineStyle": 2,
+							"points": "202:327;232:327",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9j6UFNkiOSo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jZba9hDbzo=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Бүртгүүлэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9jhWddhYp1w=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jZba9hDbzo="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jZba9hDbzo="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9jgdbthOscw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jgdbthOscw=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Нэвтрэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9jlSq9hulrM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jgdbthOscw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jgdbthOscw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9jkUbdhiI+I="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jkUbdhiI+I=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Профайлаа бөглөх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9joKuNiAY+c=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jkUbdhiI+I="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jkUbdhiI+I="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9jnic9h3VhE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jnic9h3VhE=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Сургууль үүсгэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9jqga9ijkWQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jnic9h3VhE="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jnic9h3VhE="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9jpMENiLvcc="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9j6UFNkfRwc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jnic9h3VhE="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jnic9h3VhE="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9j5y+9kJRpU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jpMENiLvcc=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Сургуулийн тухай мэдээлэл оруулах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9j5y+9kJRpU=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jTcJtg+Sl4="
+					},
+					"name": "Сургуулийн админ болно"
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFl9jsshtisJGI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart2",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFl9jsshtitq7s=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Багш",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9juvdti0fi8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9juvdtiySVc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9juvdti1IEg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9juvdti0fi8="
+									},
+									"font": "Arial;13;0",
+									"left": 66,
+									"top": 34,
+									"width": 67.0693359375,
+									"height": 13,
+									"text": "Бүртгүүлэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 56,
+							"top": 24,
+							"width": 87.0693359375,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9juvdti1IEg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jvLl9i9doQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jvLlti7JcE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jvLmNi+gPA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jvLl9i9doQ="
+									},
+									"font": "Arial;13;0",
+									"left": 66,
+									"top": 90,
+									"width": 56.27197265625,
+									"height": 13,
+									"text": "Нэвтрэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 56,
+							"top": 80,
+							"width": 76.27197265625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jvLmNi+gPA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9jwes9jIYrI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jwes9jGD8s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9jwes9jJD7c=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jwes9jIYrI="
+									},
+									"font": "Arial;13;0",
+									"left": 50,
+									"top": 170,
+									"width": 71.03662109375,
+									"height": 26,
+									"text": "Профайлаа бөглөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 160,
+							"width": 91.03662109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jwes9jJD7c="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9jxRJNjfbRk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jxRJNjdOGM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9jxRJNjgtJw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jxRJNjfbRk="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9jxRJNjdOGM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 111,
+									"top": 61,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9jxRJNjfbRk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9jvLl9i9doQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9juvdti0fi8="
+							},
+							"lineStyle": 2,
+							"points": "97:56;97:80",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jxRJNjgtJw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9jxaoNjokYs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9jxaoNjmVWU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9jxaoNjp/Vo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9jxaoNjokYs="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9jxaoNjmVWU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 111,
+									"top": 129,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9jxaoNjokYs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9jwes9jIYrI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jvLl9i9doQ="
+							},
+							"lineStyle": 2,
+							"points": "97:112;97:160",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9jxaoNjp/Vo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9j2eGtjz53g=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9j2eGtjxpfI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9j2eGtj0Yp8=",
+									"_parent": {
+										"$ref": "AAAAAAFl9j2eGtjz53g="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 130,
+									"width": 62.3720703125,
+									"height": 65,
+									"text": "Сургуульд багшаар орох хүсэлт явуулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 120,
+							"width": 82.3720703125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9j2eGtj0Yp8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9j77Ftk76to=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9j77Fdk5Ie0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9j77Ftk8Xj8=",
+									"_parent": {
+										"$ref": "AAAAAAFl9j77Ftk76to="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9j77Fdk5Ie0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 153,
+									"top": 168,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9j77Ftk76to="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9j2eGtjz53g="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9jwes9jIYrI="
+							},
+							"lineStyle": 2,
+							"points": "130:189;176:189",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9j77Ftk8Xj8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9j8npdlEdNI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9j8npdlFK7Y=",
+									"_parent": {
+										"$ref": "AAAAAAFl9j8npdlEdNI="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 18,
+									"width": 69.71630859375,
+									"height": 65,
+									"text": "Сургуулийн админ зөвшөөрөл өгч багш болгоно",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 8,
+							"width": 89.71630859375,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9j8npdlFK7Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9j9/BNlOlzE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9j9/BNlMl3E="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9j9/BdlPu/4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9j9/BNlOlzE="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9j9/BNlMl3E="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 205,
+									"top": 99,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9j9/BNlOlzE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9j8npdlEdNI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9j2eGtjz53g="
+							},
+							"lineStyle": 2,
+							"points": "220:120;220:92",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9j9/BdlPu/4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kBDM9lfxKo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kBDM9ldyIE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kBDM9lgiFU=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kBDM9lfxKo="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 42,
+									"width": 54.36767578125,
+									"height": 52,
+									"text": "Заах хичээл цагаа үүсгэнэ",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 312,
+							"top": 32,
+							"width": 74.36767578125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kBDM9lgiFU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kB2otlouOQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kB2otlmfqo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kB2otlp0Mw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kB2otlouOQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kB2otlmfqo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 48,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kB2otlouOQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kBDM9lfxKo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9j8npdlEdNI="
+							},
+							"lineStyle": 2,
+							"points": "265:69;312:69",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kB2otlp0Mw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kJLMdlz5eE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kJLMdlxOmY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kJLMdl03xo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kJLMdlz5eE="
+									},
+									"font": "Arial;13;0",
+									"left": 314,
+									"top": 154,
+									"width": 64.974609375,
+									"height": 39,
+									"text": "Хичээлийн стандарт оруулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 304,
+							"top": 144,
+							"width": 84.974609375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kJLMdl03xo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kLhLNl+AFA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kLhLNl8BBM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kLhLNl/KF0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kLhLNl+AFA="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kLhLNl8BBM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 361,
+									"top": 116,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kLhLNl+AFA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kJLMdlz5eE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kBDM9lfxKo="
+							},
+							"lineStyle": 2,
+							"points": "347:103;347:144",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kLhLNl/KF0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kMomNmI7QY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kMomNmJ7bk=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kMomNmI7QY="
+									},
+									"font": "Arial;13;0",
+									"left": 306,
+									"top": 242,
+									"width": 64.974609375,
+									"height": 39,
+									"text": "Хичээлийн агуулга оруулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 296,
+							"top": 232,
+							"width": 84.974609375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kMomNmJ7bk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kNsqdmS9C8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kNsqNmQ8EI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kNsqdmTah4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kNsqdmS9C8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kNsqNmQ8EI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 359,
+									"top": 210,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kNsqdmS9C8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kMomNmI7QY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kJLMdlz5eE="
+							},
+							"lineStyle": 2,
+							"points": "345:202;345:232",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kNsqdmTah4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kOxw9mbeUI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kOxw9mZCDQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kOxw9mcmvI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kOxw9mbeUI="
+									},
+									"font": "Arial;13;0",
+									"left": 434,
+									"top": 210,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Ирц бүртгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 424,
+							"top": 200,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kOxw9mcmvI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kP7I9mla9s=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kP7I9mj1aE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kP7JNmm/KU=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kP7I9mla9s="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kP7I9mj1aE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 409,
+									"top": 262,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kP7I9mla9s="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kOxw9mbeUI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kMomNmI7QY="
+							},
+							"lineStyle": 2,
+							"points": "380:269;424:269;424:245",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kP7JNmm/KU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kQLs9mvR3Y=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kQLs9mtPS4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kQLs9mw//Q=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kQLs9mvR3Y="
+									},
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 274,
+									"width": 73.19482421875,
+									"height": 39,
+									"text": "Даалгаврын дүн оруулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 264,
+							"width": 93.19482421875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kQLs9mw//Q="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kRXn9m5mJ4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kRXn9m3ejU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kRXn9m6C4A=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kRXn9m5mJ4="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kRXn9m3ejU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 305,
+									"top": 299,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kRXn9m5mJ4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kQLs9mvR3Y="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kMomNmI7QY="
+							},
+							"lineStyle": 2,
+							"points": "305:290;305:320;440:320",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kRXn9m6C4A="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kRqztnCBgQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kRqztnAO3Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kRqztnDtDA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kRqztnCBgQ="
+									},
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 362,
+									"width": 68.478515625,
+									"height": 39,
+									"text": "Шалгалтын дүн оруулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 352,
+							"width": 88.478515625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kRqztnDtDA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kSRCtnLO8o=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kSRCtnJ2HE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kSRCtnMVKo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kSRCtnLO8o="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kSRCtnJ2HE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 305,
+									"top": 379,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kSRCtnLO8o="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kRqztnCBgQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kMomNmI7QY="
+							},
+							"lineStyle": 2,
+							"points": "305:290;305:400;440:400",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kSRCtnMVKo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kTcktnYzU4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kTcktnZQAw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kTcktnYzU4="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 106,
+									"width": 66.30126953125,
+									"height": 65,
+									"text": "Хичээл үзэх оюутанд зөвшөөлөх өгөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 96,
+							"width": 86.30126953125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kTcktnZQAw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kUomtnhu9Q=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kUomtnfXv0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kUomtniO5U=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kUomtnhu9Q="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kUomtnfXv0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 380,
+									"top": 95,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kUomtnhu9Q="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kTcktnYzU4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kBDM9lfxKo="
+							},
+							"lineStyle": 2,
+							"points": "380:103;380:116;520:116",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kUomtniO5U="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kWj5tn5jBE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kWj5tn3BzE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kWj5tn6Lew=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kWj5tn5jBE="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kWj5tn3BzE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 599,
+									"top": 377,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kWj5tn5jBE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kRqztnCBgQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kTcktnYzU4="
+							},
+							"lineStyle": 2,
+							"points": "600:180;600:368;527:368",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kWj5tn6Lew="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kWvn9oCgCk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kWvndoA0tY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kWvn9oD/VM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kWvn9oCgCk="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kWvndoA0tY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 535,
+									"top": 297,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kWvn9oCgCk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kQLs9mvR3Y="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kTcktnYzU4="
+							},
+							"lineStyle": 2,
+							"points": "536:180;536:288;532:288",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kWvn9oD/VM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kW8NtoLDCk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kW8NtoJP/8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kW8NtoMqow=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kW8NtoLDCk="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kW8NtoJP/8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 474,
+									"top": 153,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kW8NtoLDCk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kOxw9mbeUI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kTcktnYzU4="
+							},
+							"lineStyle": 2,
+							"points": "520:160;460:160;460:200",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kW8NtoMqow="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lK7B9sLCNA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lK7B9sJkzA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lK7B9sM9ao=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lK7B9sLCNA="
+									},
+									"font": "Arial;13;0",
+									"left": 202,
+									"top": 274,
+									"width": 57.94775390625,
+									"height": 39,
+									"text": "Асуултын сан үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 192,
+							"top": 264,
+							"width": 77.94775390625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lK7B9sM9ao="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lMJPdsVLcA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lMJPNsTU0A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lMJPdsWZXg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lMJPdsVLcA="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lMJPNsTU0A="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 281,
+									"top": 291,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lMJPdsVLcA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lK7B9sLCNA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kMomNmI7QY="
+							},
+							"lineStyle": 2,
+							"points": "296:282;269:282",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lMJPdsWZXg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lMrD9sfcBs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lMrD9sd9b0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lMrD9sgoy4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lMrD9sfcBs="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 418,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Шалгалт авах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 216,
+							"top": 408,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lMrD9sgoy4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lNJXtspzmk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lNJXtsn3/k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lNJXtsqea0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lNJXtspzmk="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lNJXtsn3/k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 208,
+									"top": 409,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lNJXtspzmk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lMrD9sfcBs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lK7B9sLCNA="
+							},
+							"lineStyle": 2,
+							"points": "208:322;208:430;216:430",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lNJXtsqea0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lNV5NsyWG4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lNV49swU9s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lNV5Nszi94=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lNV5NsyWG4="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lNV49swU9s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 457,
+									"top": 433,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lNV5NsyWG4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kRqztnCBgQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lMrD9sfcBs="
+							},
+							"lineStyle": 2,
+							"points": "289:440;472:440;472:410",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lNV5Nszi94="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lXST9tZZvc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lXST9tX1NM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lXST9taSjE=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lXST9tZZvc="
+									},
+									"font": "Arial;13;0",
+									"left": 458,
+									"top": 18,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Анги үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 448,
+							"top": 8,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lXST9taSjE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lX44NtihEY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lX439tgz9M="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lX44Ntj8y4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lX44NtihEY="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lX439tgz9M="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 356,
+									"top": 27,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lX44NtihEY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lXST9tZZvc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9j8npdlEdNI="
+							},
+							"lineStyle": 2,
+							"points": "265:48;448:48",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lX44Ntj8y4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lYbvNts1/w=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lYbu9tq7no="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lYbvNttyh4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lYbvNts1/w="
+									},
+									"font": "Arial;13;0",
+									"left": 602,
+									"top": 10,
+									"width": 71.58251953125,
+									"height": 65,
+									"text": "Ангийнхаа оюутнуудад орох зөвшөөрөл өгнө",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 592,
+							"width": 91.58251953125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lYbvNttyh4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lZxV9t2pG8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lZxV9t0+FU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lZxV9t3IaI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lZxV9t2pG8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lZxV9t0+FU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 556,
+									"top": 16,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lZxV9t2pG8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lYbvNts1/w="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lXST9tZZvc="
+							},
+							"lineStyle": 2,
+							"points": "521:37;592:37",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lZxV9t3IaI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lcbyNuAyEs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lcbyNt+ET4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lcbyNuBcd0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lcbyNuAyEs="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 18,
+									"width": 81.02783203125,
+									"height": 39,
+									"text": "Үйл ажиллагааны ирц бүртгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 8,
+							"width": 101.02783203125,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lcbyNuBcd0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9ldySNuKkkY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9ldySNuIRXY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9ldySNuLIME=",
+									"_parent": {
+										"$ref": "AAAAAAFl9ldySNuKkkY="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9ldySNuIRXY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 697,
+									"top": 22,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9ldySNuKkkY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lcbyNuAyEs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lYbvNts1/w="
+							},
+							"lineStyle": 2,
+							"points": "683:43;712:43",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9ldySNuLIME="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lvCg9waNAc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lvCg9wba3Y=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lvCg9waNAc="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 234,
+									"width": 63.52734375,
+									"height": 39,
+									"text": "Дипломын хичээл үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 224,
+							"width": 83.52734375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lvCg9wba3Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lwjWtwkbyM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lwjWtwivA4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lwjWtwlEYs=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lwjWtwkbyM="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lwjWtwivA4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 195,
+									"top": 257,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lwjWtwkbyM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lvCg9waNAc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9j8npdlEdNI="
+							},
+							"lineStyle": 2,
+							"points": "196:92;196:248;115:248",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lwjWtwlEYs="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lygstwyYcw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lygsdwwTjY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lygstwzh8c=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lygstwyYcw="
+									},
+									"font": "Arial;13;0",
+									"left": 10,
+									"top": 338,
+									"width": 54.18994140625,
+									"height": 65,
+									"text": "Диплом удирдах багш нараа нэмэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"top": 328,
+							"width": 74.18994140625,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lygstwzh8c="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9l0KzNw8KWQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l0KzNw6TtE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9l0KzNw9pdQ=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l0KzNw8KWQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9l0KzNw6TtE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 80,
+									"top": 298,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9l0KzNw8KWQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lygstwyYcw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lvCg9waNAc="
+							},
+							"lineStyle": 2,
+							"points": "66:282;66:328",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l0KzNw9pdQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9l0fadxGpms=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l0fadxEsl8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9l0fadxHpWw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l0fadxGpms="
+									},
+									"font": "Arial;13;0",
+									"left": 106,
+									"top": 338,
+									"width": 71.22705078125,
+									"height": 52,
+									"text": "Диплом бичих оюутнуудаа нэмэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 96,
+							"top": 328,
+							"width": 91.22705078125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l0fadxHpWw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9l1cD9xQHTQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l1cDtxO1H8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9l1cD9xRsCA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l1cD9xQHTQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9l1cDtxO1H8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 110,
+									"top": 298,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9l1cD9xQHTQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9l0fadxGpms="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lvCg9waNAc="
+							},
+							"lineStyle": 2,
+							"points": "96:282;96:328",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l1cD9xRsCA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9l2X09xcsWw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l2X09xajp0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9l2X09xdqk4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l2X09xcsWw="
+									},
+									"font": "Arial;13;0",
+									"left": 26,
+									"top": 474,
+									"width": 63.52734375,
+									"height": 52,
+									"text": "Дипломын удирдагч сэдэв оруулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 464,
+							"width": 83.52734375,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l2X09xdqk4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9l4owtxpSBQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l4owtxnHe0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9l4owtxqFNM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l4owtxpSBQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9l4owtxnHe0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 52,
+									"top": 431,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9l4owtxpSBQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9l2X09xcsWw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lygstwyYcw="
+							},
+							"lineStyle": 2,
+							"points": "38:412;38:464",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l4owtxqFNM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9l5b2dx2808=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l5b2dx0i1k="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9l5b2dx30Kg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l5b2dx2808="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 514,
+									"width": 63.52734375,
+									"height": 39,
+									"text": "Дипломын сэдэв сонгох",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 504,
+							"width": 83.52734375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l5b2dx30Kg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9l6RjNyBqF4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l6RjNx/PIM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9l6RjNyC56U=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l6RjNyBqF4="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9l6RjNx/PIM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 160,
+									"top": 444,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9l6RjNyBqF4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9l5b2dx2808="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9l0fadxGpms="
+							},
+							"lineStyle": 2,
+							"points": "146:399;146:504",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l6RjNyC56U="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9l6xetyKsx8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l6xedyIQnA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9l6xetyLU+k=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l6xetyKsx8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9l6xedyIQnA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 113,
+									"top": 495,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9l6xetyKsx8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9l5b2dx2808="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9l2X09xcsWw="
+							},
+							"lineStyle": 2,
+							"points": "99:516;128:516",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l6xetyLU+k="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9l8/ZtyWqX0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l8/ZdyU0L8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9l8/ZtyX6pk=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l8/ZtyWqX0="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 466,
+									"width": 54.18994140625,
+									"height": 65,
+									"text": "Нарийн бичиг нь үзлэгийн хуваарь оруулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 456,
+							"width": 74.18994140625,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l8/ZtyX6pk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9l+5Btygy8E=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9l+5Bdyegzw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9l+5Btyh35k=",
+									"_parent": {
+										"$ref": "AAAAAAFl9l+5Btygy8E="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9l+5Bdyegzw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 92,
+									"top": 483,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9l+5Btygy8E="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9l8/ZtyWqX0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lvCg9waNAc="
+							},
+							"lineStyle": 2,
+							"points": "92:282;92:504;248:504",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9l+5Btyh35k="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mByp9yrVwY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mByptypRGo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mByp9ysw3o=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mByp9yrVwY="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 610,
+									"width": 54.18994140625,
+									"height": 78,
+									"text": "Багш нар оюутан бүрт үзлэгийн дүн өгнө",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 120,
+							"top": 600,
+							"width": 74.18994140625,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mByp9ysw3o="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mEChty/mc4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mEChty9kH8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mECh9zAvgo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mEChty/mc4="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mEChty9kH8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 195,
+									"top": 574,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mEChty/mc4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mByp9yrVwY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9l5b2dx2808="
+							},
+							"lineStyle": 2,
+							"points": "181:562;181:600",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mECh9zAvgo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mGYDtzPfS0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mGYDtzNrqA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mGYDtzQ3Ck=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mGYDtzPfS0="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 570,
+									"width": 54.18994140625,
+									"height": 65,
+									"text": "Үзлэгт оролцох багш нарыг нэмэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 560,
+							"width": 74.18994140625,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mGYDtzQ3Ck="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mHnUNzZEvo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mHnUNzXPlg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mHnUNzaZrk=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mHnUNzZEvo="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mHnUNzXPlg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 543,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mHnUNzZEvo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mGYDtzPfS0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9l8/ZtyWqX0="
+							},
+							"lineStyle": 2,
+							"points": "274:540;274:560",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mHnUNzaZrk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mHzI9ziUrs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mHzI9zgOd0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mHzI9zjmI0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mHzI9ziUrs="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mHzI9zgOd0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 215,
+									"top": 620,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mHzI9ziUrs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mByp9yrVwY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9mGYDtzPfS0="
+							},
+							"lineStyle": 2,
+							"points": "240:611;193:611",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mHzI9zjmI0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mJawNzuvHk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mJawNzsDgU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mJawNzvHUI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mJawNzuvHk="
+									},
+									"font": "Arial;13;0",
+									"left": 10,
+									"top": 586,
+									"width": 73.7978515625,
+									"height": 39,
+									"text": "Үйл ажиллаганы ирц бүртгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"top": 576,
+							"width": 93.7978515625,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mJawNzvHUI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mKXXdz4POE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mKXXdz2VtE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mKXXdz58fA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mKXXdz4POE="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mKXXdz2VtE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 52,
+									"top": 487,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mKXXdz4POE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mJawNzuvHk="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lygstwyYcw="
+							},
+							"lineStyle": 2,
+							"points": "38:412;38:576",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mKXXdz58fA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nAc6N4ilI8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nAc6N4gb0Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nAc6N4jlZA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nAc6N4ilI8="
+									},
+									"font": "Arial;13;0",
+									"left": 442,
+									"top": 66,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Цагийн тооцоо харах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 432,
+							"top": 56,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nAc6N4jlZA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nBZYd4t6oE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jsshtitq7s="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nBZYd4rruc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nBZYd4ujo8=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nBZYd4t6oE="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nBZYd4rruc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 417,
+									"top": 137,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nBZYd4t6oE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nAc6N4ilI8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kJLMdlz5eE="
+							},
+							"lineStyle": 2,
+							"points": "388:144;432:144;432:114",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nBZYd4ujo8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9juvdtiySVc=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Бүртгүүлэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9jxRJNjdOGM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9juvdtiySVc="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9juvdtiySVc="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9jvLlti7JcE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jvLlti7JcE=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Нэвтрэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9jxaoNjmVWU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jvLlti7JcE="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jvLlti7JcE="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9jwes9jGD8s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9jwes9jGD8s=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Профайлаа бөглөх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9j77Fdk5Ie0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9jwes9jGD8s="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9jwes9jGD8s="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9j2eGtjxpfI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9j2eGtjxpfI=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Сургуульд багшаар орох хүсэлт явуулна",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9j9/BNlMl3E=",
+							"_parent": {
+								"$ref": "AAAAAAFl9j2eGtjxpfI="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9j2eGtjxpfI="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9j8npdlCDlw=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Сургуулийн админ зөвшөөрөл өгч багш болгоно",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kB2otlmfqo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kBDM9ldyIE="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lX439tgz9M=",
+							"_parent": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lXST9tX1NM="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lwjWtwivA4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9j8npdlCDlw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kBDM9ldyIE=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Заах хичээл цагаа үүсгэнэ",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kLhLNl8BBM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kBDM9ldyIE="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kBDM9ldyIE="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kJLMdlxOmY="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kUomtnfXv0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kBDM9ldyIE="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kBDM9ldyIE="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kJLMdlxOmY=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Хичээлийн стандарт оруулах",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kNsqNmQ8EI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kJLMdlxOmY="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kJLMdlxOmY="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nBZYd4rruc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kJLMdlxOmY="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kJLMdlxOmY="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nAc6N4gb0Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kMol9mGUWg=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Хичээлийн агуулга оруулах",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kP7I9mj1aE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kOxw9mZCDQ="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kRXn9m3ejU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kQLs9mtPS4="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kSRCtnJ2HE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kRqztnAO3Y="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lMJPNsTU0A=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kMol9mGUWg="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lK7B9sJkzA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kOxw9mZCDQ=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Ирц бүртгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kQLs9mtPS4=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Даалгаврын дүн оруулах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kRqztnAO3Y=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Шалгалтын дүн оруулах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kTcktnWMg0=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Хичээл үзэх оюутанд зөвшөөлөх өгөх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kWj5tn3BzE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kRqztnAO3Y="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kWvndoA0tY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kQLs9mtPS4="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kW8NtoJP/8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kTcktnWMg0="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kOxw9mZCDQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lK7B9sJkzA=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Асуултын сан үүсгэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lNJXtsn3/k=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lK7B9sJkzA="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lK7B9sJkzA="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lMrD9sd9b0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lMrD9sd9b0=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Шалгалт авах",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lNV49swU9s=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lMrD9sd9b0="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lMrD9sd9b0="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kRqztnAO3Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lXST9tX1NM=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Анги үүсгэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lZxV9t0+FU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lXST9tX1NM="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lXST9tX1NM="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lYbu9tq7no="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lYbu9tq7no=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Ангийнхаа оюутнуудад орох зөвшөөрөл өгнө",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9ldySNuIRXY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lYbu9tq7no="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lYbu9tq7no="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lcbyNt+ET4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lcbyNt+ET4=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Үйл ажиллагааны ирц бүртгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lvCg9wYpGw=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Дипломын хичээл үүсгэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9l0KzNw6TtE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lygsdwwTjY="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9l1cDtxO1H8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9l0fadxEsl8="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9l+5Bdyegzw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lvCg9wYpGw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9l8/ZdyU0L8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lygsdwwTjY=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Диплом удирдах багш нараа нэмэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9l4owtxnHe0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lygsdwwTjY="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lygsdwwTjY="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9l2X09xajp0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mKXXdz2VtE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lygsdwwTjY="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lygsdwwTjY="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mJawNzsDgU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9l0fadxEsl8=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Диплом бичих оюутнуудаа нэмэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9l6RjNx/PIM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9l0fadxEsl8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9l0fadxEsl8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9l5b2dx0i1k="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9l2X09xajp0=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Дипломын удирдагч сэдэв оруулна",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9l6xedyIQnA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9l2X09xajp0="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9l2X09xajp0="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9l5b2dx0i1k="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9l5b2dx0i1k=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Дипломын сэдэв сонгох",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mEChty9kH8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9l5b2dx0i1k="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9l5b2dx0i1k="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mByptypRGo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9l8/ZdyU0L8=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Нарийн бичиг нь үзлэгийн хуваарь оруулна",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mHnUNzXPlg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9l8/ZdyU0L8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9l8/ZdyU0L8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mGYDtzNrqA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mByptypRGo=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Багш нар оюутан бүрт үзлэгийн дүн өгнө"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mGYDtzNrqA=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Үзлэгт оролцох багш нарыг нэмэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mHzI9zgOd0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mGYDtzNrqA="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9mGYDtzNrqA="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mByptypRGo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mJawNzsDgU=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Үйл ажиллаганы ирц бүртгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nAc6N4gb0Y=",
+					"_parent": {
+						"$ref": "AAAAAAFl9jsshtisJGI="
+					},
+					"name": "Цагийн тооцоо харах"
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFl9kdXVtouTg8=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart3",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFl9kdXVtovzD8=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Оюутан",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9keYDNo2lPQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9keYC9o0ODw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9keYDNo3dco=",
+									"_parent": {
+										"$ref": "AAAAAAFl9keYDNo2lPQ="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 58,
+									"width": 66.244140625,
+									"height": 13,
+									"text": "Бүртгүүлэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 48,
+							"width": 86.244140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9keYDNo3dco="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kfC+No/h0U=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kfC+No9xnU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kfC+NpA5n0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kfC+No/h0U="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 114,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Нэвтрэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 104,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kfC+NpA5n0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kfdodpI8i4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kfdn9pGfg8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kfdodpJOBg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kfdodpI8i4="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 170,
+									"width": 71.03662109375,
+									"height": 26,
+									"text": "Профайлаа бөглөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 160,
+							"width": 91.03662109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kfdodpJOBg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kfeKtpQOXg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kfeKtpO8+8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kfeKtpRwiE=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kfeKtpQOXg="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kfeKtpO8+8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 141,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kfeKtpQOXg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kfdodpI8i4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kfC+No/h0U="
+							},
+							"lineStyle": 2,
+							"points": "220:136;220:160",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kfeKtpRwiE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kgYftpb9H8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kgYftpZTyg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kgYftpc7Cc=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kgYftpb9H8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kgYftpZTyg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 232,
+									"top": 85,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kgYftpb9H8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kfC+No/h0U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9keYDNo2lPQ="
+							},
+							"lineStyle": 2,
+							"points": "218:80;218:104",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kgYftpc7Cc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kiDttpkEb0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kiDttpiGTE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kiDttpl+DE=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kiDttpkEb0="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 242,
+									"width": 58.30322265625,
+									"height": 78,
+									"text": "Сургууль руу оюутнаар орох хүсэлт явуулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 232,
+							"width": 78.30322265625,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kiDttpl+DE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kjfadpuFnw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kjfaNpsKdI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kjfadpv964=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kjfadpuFnw="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kjfaNpsKdI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 233,
+									"top": 211,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kjfadpuFnw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kiDttpkEb0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kfdodpI8i4="
+							},
+							"lineStyle": 2,
+							"points": "219:205;219:232",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kjfadpv964="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kmmx9p69W4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kmmx9p4W6M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kmmx9p7V8w=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kmmx9p69W4="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 242,
+									"width": 67.03125,
+									"height": 78,
+									"text": "Багш зөвшөөрөл өгч сургуулийн оюутан болгоно",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 232,
+							"width": 87.03125,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kmmx9p7V8w="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kpHcdqENGI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kpHcdqCxCc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kpHcdqFd7g=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kpHcdqENGI="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kpHcdqCxCc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 266,
+									"top": 264,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kpHcdqENGI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kmmx9p69W4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kiDttpkEb0="
+							},
+							"lineStyle": 2,
+							"points": "253:285;280:285",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kpHcdqFd7g="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9ktiGNqO7Wg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9ktiF9qMM+o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9ktiGNqP7DA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9ktiGNqO7Wg="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 130,
+									"width": 67.03125,
+									"height": 65,
+									"text": "Хичээлийг аль цаг дээр үзэх хүсэлтээ явуулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 120,
+							"width": 87.03125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9ktiGNqP7DA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9ku2K9qYROQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9ku2K9qWT+8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9ku2K9qZF+c=",
+									"_parent": {
+										"$ref": "AAAAAAFl9ku2K9qYROQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9ku2K9qWT+8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 308,
+									"top": 211,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9ku2K9qYROQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9ktiGNqO7Wg="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kmmx9p69W4="
+							},
+							"lineStyle": 2,
+							"points": "323:232;323:204",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9ku2K9qZF+c="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kvEnNqhyDc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kvEnNqizsU=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kvEnNqhyDc="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 26,
+									"width": 67.03125,
+									"height": 52,
+									"text": "Хичээлийн багш зөвшөөрөл өгнө",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 16,
+							"width": 87.03125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kvEnNqizsU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kwBItqsFaU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kwBItqqa0Q="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kwBItqtBdg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kwBItqsFaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kwBItqqa0Q="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 308,
+									"top": 96,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kwBItqsFaU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kvEnNqhyDc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9ktiGNqO7Wg="
+							},
+							"lineStyle": 2,
+							"points": "323:120;323:87",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kwBItqtBdg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9kxlvtq1o+4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kxlvtqzEUc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9kxlvtq2++c=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kxlvtq1o+4="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 26,
+									"width": 64.974609375,
+									"height": 39,
+									"text": "Хичээлийн стандарт харах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 16,
+							"width": 84.974609375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kxlvtq2++c="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kygpNq/trU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kygpNq9rXE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kygpNrApXQ=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kygpNq/trU="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kygpNq9rXE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 411,
+									"top": 47,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kygpNq/trU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9kxlvtq1o+4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kvEnNqhyDc="
+							},
+							"lineStyle": 2,
+							"points": "366:68;456:68",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kygpNrApXQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9ky3atrIQ1s=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9ky3atrGVJo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9ky3atrJe1s=",
+									"_parent": {
+										"$ref": "AAAAAAFl9ky3atrIQ1s="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 114,
+									"width": 64.974609375,
+									"height": 39,
+									"text": "Хичээлийн материал харах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 104,
+							"width": 84.974609375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9ky3atrJe1s="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9kznftrSAXg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9kznftrQ/pk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9kznftrTpoI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9kznftrSAXg="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9kznftrQ/pk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 366,
+									"top": 94,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9kznftrSAXg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9ky3atrIQ1s="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kvEnNqhyDc="
+							},
+							"lineStyle": 2,
+							"points": "366:87;366:115;456:115",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9kznftrTpoI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9k3A4trd0KM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9k3A4trbs1U="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9k3A4treiW4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9k3A4trd0KM="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 194,
+									"width": 69.9130859375,
+									"height": 39,
+									"text": "Хийсэн даалгавраа илгээх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 184,
+							"width": 89.9130859375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9k3A4treiW4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9k39RNrmC44=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9k39RNrk+c4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9k39RNrnUfQ=",
+									"_parent": {
+										"$ref": "AAAAAAFl9k39RNrmC44="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9k39RNrk+c4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 355,
+									"top": 163,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9k39RNrmC44="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9k3A4trd0KM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kvEnNqhyDc="
+							},
+							"lineStyle": 2,
+							"points": "355:87;355:184;456:184",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9k39RNrnUfQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9k4XF9rvNxI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9k4XF9rtwgg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9k4XF9rwzOI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9k4XF9rvNxI="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 282,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Явцын дүнгээ харах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 272,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9k4XF9rwzOI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9k5KEtr4Fis=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9k5KEdr25es="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9k5KEtr56b0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9k5KEtr4Fis="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9k5KEdr25es="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 342,
+									"top": 267,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9k5KEtr4Fis="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9k4XF9rvNxI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kvEnNqhyDc="
+							},
+							"lineStyle": 2,
+							"points": "342:87;342:288;456:288",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9k5KEtr56b0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lOfNds+3Yk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lOfNds83IA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lOfNds/tv0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lOfNds+3Yk="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 362,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Шалгалт өгөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 352,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lOfNds/tv0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lPFONtIoU8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kdXVtovzD8="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lPFONtGkbs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lPFONtJWks=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lPFONtIoU8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lPFONtGkbs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 342,
+									"top": 331,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lPFONtIoU8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lOfNds+3Yk="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9kvEnNqhyDc="
+							},
+							"lineStyle": 2,
+							"points": "342:87;342:352;456:352",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lPFONtJWks="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9keYC9o0ODw=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Бүртгүүлэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kgYftpZTyg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9keYC9o0ODw="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9keYC9o0ODw="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kfC+No9xnU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kfC+No9xnU=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Нэвтрэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kfeKtpO8+8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kfC+No9xnU="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kfC+No9xnU="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kfdn9pGfg8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kfdn9pGfg8=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Профайлаа бөглөх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kjfaNpsKdI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kfdn9pGfg8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kfdn9pGfg8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kiDttpiGTE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kiDttpiGTE=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Сургууль руу оюутнаар орох хүсэлт явуулна",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kpHcdqCxCc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kiDttpiGTE="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kiDttpiGTE="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kmmx9p4W6M="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kmmx9p4W6M=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Багш зөвшөөрөл өгч сургуулийн оюутан болгоно",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9ku2K9qWT+8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kmmx9p4W6M="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kmmx9p4W6M="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9ktiF9qMM+o="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9ktiF9qMM+o=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Хичээлийг аль цаг дээр үзэх хүсэлтээ явуулах",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kwBItqqa0Q=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ktiF9qMM+o="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9ktiF9qMM+o="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kvEnNqfN1w=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Хичээлийн багш зөвшөөрөл өгнө",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kygpNq9rXE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9kxlvtqzEUc="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9kznftrQ/pk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9ky3atrGVJo="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9k39RNrk+c4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9k3A4trbs1U="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9k5KEdr25es=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9k4XF9rtwgg="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lPFONtGkbs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9kvEnNqfN1w="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lOfNds83IA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9kxlvtqzEUc=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Хичээлийн стандарт харах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9ky3atrGVJo=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Хичээлийн материал харах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9k3A4trbs1U=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Хийсэн даалгавраа илгээх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9k4XF9rtwgg=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Явцын дүнгээ харах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lOfNds83IA=",
+					"_parent": {
+						"$ref": "AAAAAAFl9kdXVtouTg8="
+					},
+					"name": "Шалгалт өгөх"
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFl9lTOYNtPPEo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart4",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFl9lTOYdtQx2o=",
+					"_parent": {
+						"$ref": "AAAAAAFl9lTOYNtPPEo="
+					},
+					"name": "Зөвлөх багш"
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFl9ljhxNuS8vU=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart5",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFl9ljhxNuTeUw=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Хэрэглэгч",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lkpVNua0JM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lkpU9uYvwc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lkpVNubdr0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lkpVNua0JM="
+									},
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 34,
+									"width": 66.244140625,
+									"height": 13,
+									"text": "Бүртгүүлэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 208,
+							"top": 24,
+							"width": 86.244140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lkpVNubdr0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9llCltuj10o=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9llCltuheag="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9llCltukHzM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9llCltuj10o="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 106,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Нэвтрэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 216,
+							"top": 96,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9llCltukHzM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9llVT9usow4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9llVTtuqZg0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9llVT9utfrg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9llVT9usow4="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9llVTtuqZg0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 264,
+									"top": 69,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9llVT9usow4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9llCltuj10o="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lkpVNua0JM="
+							},
+							"lineStyle": 2,
+							"points": "250:56;250:96",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9llVT9utfrg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lljI9u1MHw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lljI9u2ZJM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lljI9u1MHw="
+									},
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 170,
+									"width": 71.03662109375,
+									"height": 26,
+									"text": "Профайлаа бөглөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 208,
+							"top": 160,
+							"width": 91.03662109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lljI9u2ZJM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lmEn9u+aNU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lmEn9u8D28="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lmEn9u/KNc=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lmEn9u+aNU="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lmEn9u8D28="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 270,
+									"top": 137,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lmEn9u+aNU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9llCltuj10o="
+							},
+							"lineStyle": 2,
+							"points": "256:128;256:160",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lmEn9u/KNc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lmNjNvH4d4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lmNjNvFWaw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lmNjNvIVNM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lmNjNvH4d4="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 266,
+									"width": 54.18994140625,
+									"height": 65,
+									"text": "Зураг, видео, аудио цомог үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 256,
+							"width": 74.18994140625,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lmNjNvIVNM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9loWs9vSOcA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9loWs9vQBxY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9loWs9vTlZo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9loWs9vSOcA="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9loWs9vQBxY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 266,
+									"top": 307,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9loWs9vSOcA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lmNjNvH4d4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "267:205;267:298;249:298",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9loWs9vTlZo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lolUdvcOok=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lolUdvdue0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lolUdvcOok="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 178,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Нийтлэл бичих",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 168,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lolUdvdue0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lovP9vkkAY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lovP9vibL8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lovP9vlnuI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lovP9vkkAY="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lovP9vibL8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 333,
+									"top": 169,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lovP9vkkAY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lolUdvcOok="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "298:190;368:190",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lovP9vlnuI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lqZ79vwj0Q=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lqZ79vuy4E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lqZ79vxtI0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lqZ79vwj0Q="
+									},
+									"font": "Arial;13;0",
+									"left": 354,
+									"top": 26,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Нууц үгээ сэргээх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 16,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lqZ79vxtI0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lrBttv54b0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lrBttv3PU8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lrBttv62hc=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lrBttv54b0="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lrBttv3PU8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 318,
+									"top": 34,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lrBttv54b0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lqZ79vwj0Q="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lkpVNua0JM="
+							},
+							"lineStyle": 2,
+							"points": "293:55;344:55",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lrBttv62hc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9lrWntwDZqw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lrWntwBGeU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9lrWntwEUk8=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lrWntwDZqw="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 106,
+									"width": 59.87109375,
+									"height": 26,
+									"text": "Бүртгэлээ устгах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 96,
+							"width": 79.87109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lrWntwEUk8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9lr/BtwMmGQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9lr/BdwKVsY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9lr/BtwNduQ=",
+									"_parent": {
+										"$ref": "AAAAAAFl9lr/BtwMmGQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9lr/BdwKVsY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 101,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9lr/BtwMmGQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9lrWntwDZqw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9llCltuj10o="
+							},
+							"lineStyle": 2,
+							"points": "289:122;352:122",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9lr/BtwNduQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mXDu90BNkQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mXDutz/OuU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mXDu90CeVU=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mXDu90BNkQ="
+									},
+									"font": "Arial;13;0",
+									"left": 354,
+									"top": 258,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Найзлах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 248,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mXDu90CeVU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mXknN0LE1c=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mXknN0JyFw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mXknN0M3TQ=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mXknN0LE1c="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mXknN0JyFw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 273,
+									"top": 243,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mXknN0LE1c="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mXDu90BNkQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "273:205;273:264;344:264",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mXknN0M3TQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mYLqd0V2Gc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mYLqd0Tw34="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mYLqd0WyRY=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mYLqd0V2Gc="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 314,
+									"width": 59.5537109375,
+									"height": 26,
+									"text": "Мэдээлэл сануулах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 304,
+							"width": 79.5537109375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mYLqd0WyRY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mZFe90ggEg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mZFe90eCIA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mZFe90hoV0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mZFe90ggEg="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mZFe90eCIA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 270,
+									"top": 291,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mZFe90ggEg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mYLqd0V2Gc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "270:205;270:312;336:312",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mZFe90hoV0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mcczt0rdvA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mcczt0ppyU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mcczt0sPtM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mcczt0rdvA="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 378,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Санал асуулга үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 312,
+							"top": 368,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mcczt0sPtM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mdaqd015rI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mdaqd0zRsQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mdaqt02qHU=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mdaqd015rI="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mdaqd0zRsQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 263,
+									"top": 347,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mdaqd015rI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mcczt0rdvA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "263:205;263:368;312:368",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mdaqt02qHU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mygG93omVA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mygG93mhbs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mygG93p1kk=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mygG93omVA="
+									},
+									"font": "Arial;13;0",
+									"left": 50,
+									"top": 242,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Чатлах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 232,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mygG93p1kk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9my4A93x7zs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9my4A93vEcg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9my4A93yKPo=",
+									"_parent": {
+										"$ref": "AAAAAAFl9my4A93x7zs="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9my4A93vEcg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 207,
+									"top": 243,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9my4A93x7zs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mygG93omVA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "208:205;208:234;113:234",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9my4A93yKPo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mzZ2t36dcY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mzZ2t34MVI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mzZ2t37JNI=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mzZ2t36dcY="
+									},
+									"font": "Arial;13;0",
+									"left": 58,
+									"top": 154,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Эвэнт үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 144,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mzZ2t37JNI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9m0Rd94Faas=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9m0Rd94DOIk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9m0Rd94GlAs=",
+									"_parent": {
+										"$ref": "AAAAAAFl9m0Rd94Faas="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9m0Rd94DOIk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 163,
+									"top": 187,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9m0Rd94Faas="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mzZ2t36dcY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "208:178;121:178",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9m0Rd94GlAs="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9m7IBN4OUqc=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9m7IBN4MOhg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9m7IBN4PJJM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9m7IBN4OUqc="
+									},
+									"font": "Arial;13;0",
+									"left": 34,
+									"top": 66,
+									"width": 80.67236328125,
+									"height": 39,
+									"text": "Зар сурталчилгаа үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 24,
+							"top": 56,
+							"width": 100.67236328125,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9m7IBN4PJJM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9m8AId4YwDw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9m8AId4WI54="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9m8AIt4ZQdg=",
+									"_parent": {
+										"$ref": "AAAAAAFl9m8AId4YwDw="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9m8AId4WI54="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 169,
+									"top": 130,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9m8AId4YwDw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9m7IBN4OUqc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "208:160;184:160;184:114;124:114",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9m8AIt4ZQdg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nFaMt42Rxo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nFaMt40/4w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nFaMt43q6Y=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nFaMt42Rxo="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 306,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Груп чат үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 296,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nFaMt43q6Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nGJUt5AOdw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nGJUt4+ZQY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nGJUt5Blw4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nGJUt5AOdw="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nGJUt4+ZQY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 221,
+									"top": 305,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nGJUt5AOdw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nFaMt42Rxo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "222:205;222:296;105:296",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nGJUt5Blw4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nHUvt5JL10=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nHUvt5HfoA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nHUvt5K1BA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nHUvt5JL10="
+									},
+									"font": "Arial;13;0",
+									"left": 498,
+									"top": 130,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Энгийн текст",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 488,
+							"top": 120,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nHUvt5K1BA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nIXKN5T1/I=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nIXKN5Ry7M="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nIXKN5U+1w=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nIXKN5T1/I="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nIXKN5Ry7M="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 509,
+									"top": 171,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nIXKN5T1/I="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nHUvt5JL10="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lolUdvcOok="
+							},
+							"lineStyle": 2,
+							"points": "441:178;524:178;524:165",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nIXKN5U+1w="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nI6Mt5dPj0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nI6Mt5bj58="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nI6Mt5e/o4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nI6Mt5dPj0="
+									},
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 282,
+									"width": 56.7734375,
+									"height": 26,
+									"text": "Судалгаа үүсгэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 272,
+							"width": 76.7734375,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nI6Mt5e/o4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nLGkt53sy8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nLGkt516zk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nLGkt54TUA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nLGkt53sy8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nLGkt516zk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 298,
+									"top": 273,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nLGkt53sy8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nI6Mt5dPj0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "298:205;298:294;440:294",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nLGkt54TUA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nMxQN6C8og=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nMxQN6Ar4Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nMxQN6D5os=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nMxQN6C8og="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 138,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Дэвсгэр зурагтай текст",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 128,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nMxQN6D5os="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nOZqN6M2AI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nOZqN6KNO4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nOZqN6NMj8=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nOZqN6M2AI="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nOZqN6KNO4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 569,
+									"top": 201,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nOZqN6M2AI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nMxQN6C8og="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lolUdvcOok="
+							},
+							"lineStyle": 2,
+							"points": "441:208;584:208;584:186",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nOZqN6NMj8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nOpyN6WMZI=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nOpx96UQXM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nOpyN6XdvA=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nOpyN6WMZI="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 218,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Файл",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 208,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nOpyN6XdvA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nO8vt6fhZw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nO8vt6dnA8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nO8vt6g7Zw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nO8vt6fhZw="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nO8vt6dnA8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 441,
+									"top": 203,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nO8vt6fhZw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nOpyN6WMZI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lolUdvcOok="
+							},
+							"lineStyle": 2,
+							"points": "441:213;441:224;584:224",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nO8vt6g7Zw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nPvDt6raow=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nPvDt6pYZ4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nPvDt6siGM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nPvDt6raow="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 258,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Зураг, дуу, видео",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 248,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nPvDt6siGM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nQeK960LNs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nQeK96yjL8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nQeK961TOk=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nQeK960LNs="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nQeK96yjL8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 441,
+									"top": 248,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nQeK960LNs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nPvDt6raow="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lolUdvcOok="
+							},
+							"lineStyle": 2,
+							"points": "441:213;441:269;584:269",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nQeK961TOk="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9nTIed6/mdk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nTIed69zRY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9nTIed7AeSc=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nTIed6/mdk="
+									},
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 50,
+									"width": 58.88720703125,
+									"height": 26,
+									"text": "Сэтгэгдэл бичих",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 40,
+							"width": 78.88720703125,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nTIed7AeSc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9nTyPN7I7N8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9ljhxNuTeUw="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9nTyO97Gd2Q="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9nTyPN7JQ40=",
+									"_parent": {
+										"$ref": "AAAAAAFl9nTyPN7I7N8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9nTyO97Gd2Q="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 473,
+									"top": 157,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9nTyPN7I7N8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9nTIed6/mdk="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9lljI9u1MHw="
+							},
+							"lineStyle": 2,
+							"points": "298:164;488:164;488:85",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9nTyPN7JQ40="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lkpU9uYvwc=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Бүртгүүлэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9llVTtuqZg0=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lkpU9uYvwc="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lkpU9uYvwc="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9llCltuheag="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lrBttv3PU8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lkpU9uYvwc="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lkpU9uYvwc="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lqZ79vuy4E="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9llCltuheag=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Нэвтрэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lmEn9u8D28=",
+							"_parent": {
+								"$ref": "AAAAAAFl9llCltuheag="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9llCltuheag="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lr/BdwKVsY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9llCltuheag="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9llCltuheag="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lrWntwBGeU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lljI9uzTn8=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Профайлаа бөглөх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9loWs9vQBxY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lmNjNvFWaw="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9lovP9vibL8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mXknN0JyFw=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mXDutz/OuU="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mZFe90eCIA=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mYLqd0Tw34="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mdaqd0zRsQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mcczt0ppyU="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9my4A93vEcg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mygG93mhbs="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9m0Rd94DOIk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mzZ2t34MVI="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9m8AId4WI54=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9m7IBN4MOhg="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nGJUt4+ZQY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nFaMt40/4w="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nLGkt516zk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nI6Mt5bj58="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nTyO97Gd2Q=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lljI9uzTn8="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nTIed69zRY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lmNjNvFWaw=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Зураг, видео, аудио цомог үүсгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lolUdvayOM=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Нийтлэл бичих",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nIXKN5Ry7M=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nHUvt5HfoA="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nOZqN6KNO4=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nMxQN6Ar4Y="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nO8vt6dnA8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nOpx96UQXM="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9nQeK96yjL8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9lolUdvayOM="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9nPvDt6pYZ4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lqZ79vuy4E=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Нууц үгээ сэргээх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9lrWntwBGeU=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Бүртгэлээ устгах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mXDutz/OuU=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Найзлах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mYLqd0Tw34=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Мэдээлэл сануулах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mcczt0ppyU=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Санал асуулга үүсгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mygG93mhbs=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Чатлах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mzZ2t34MVI=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Эвэнт үүсгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9m7IBN4MOhg=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Зар сурталчилгаа үүсгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nFaMt40/4w=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Груп чат үүсгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nHUvt5HfoA=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Энгийн текст"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nI6Mt5bj58=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Судалгаа үүсгэх"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nMxQN6Ar4Y=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Дэвсгэр зурагтай текст"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nOpx96UQXM=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Файл"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nPvDt6pYZ4=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Зураг, дуу, видео"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9nTIed69zRY=",
+					"_parent": {
+						"$ref": "AAAAAAFl9ljhxNuS8vU="
+					},
+					"name": "Сэтгэгдэл бичих"
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFl9mfz5N08bOk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart6",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFl9mfz5N09EZc=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Эцэг эх",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mi5at1En1E=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mi5at1Codo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mi5at1FiME=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mi5at1En1E="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 34,
+									"width": 66.244140625,
+									"height": 13,
+									"text": "Бүртгүүлэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 24,
+							"width": 86.244140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mi5at1FiME="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mjXzt1NhQM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mjXzt1LDrQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mjXzt1OFus=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mjXzt1NhQM="
+									},
+									"font": "Arial;13;0",
+									"left": 90,
+									"top": 98,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Нэвтрэх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 80,
+							"top": 88,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mjXzt1OFus="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mj2Xt1WMrg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mj2Xt1UZHQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mj2Xt1XAwc=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mj2Xt1WMrg="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mj2Xt1UZHQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 129,
+									"top": 65,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mj2Xt1WMrg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mjXzt1NhQM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9mi5at1En1E="
+							},
+							"lineStyle": 2,
+							"points": "115:56;115:88",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mj2Xt1XAwc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mkGj91fAsE=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mkGj91dE60="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mkGj91gCRM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mkGj91fAsE="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 154,
+									"width": 56.57666015625,
+									"height": 26,
+									"text": "Профайл бөглөх",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 144,
+							"width": 76.57666015625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mkGj91gCRM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mkQS91nnWs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mkQS91lnAo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mkQS91oDBM=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mkQS91nnWs="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mkQS91lnAo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 132,
+									"top": 125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mkQS91nnWs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mkGj91fAsE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9mjXzt1NhQM="
+							},
+							"lineStyle": 2,
+							"points": "118:120;118:144",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mkQS91oDBM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mn6Pt11xqo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mn6Pt1zjek="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mn6Pt120sc=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mn6Pt11xqo="
+									},
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 114,
+									"width": 54.18994140625,
+									"height": 78,
+									"text": "Хүүхэд рүүгээ эцэг эх болох хүсэлт явуулна",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 208,
+							"top": 104,
+							"width": 74.18994140625,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mn6Pt120sc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mo/FN1/dYM=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mo/FN199PU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mo/FN2AWsY=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mo/FN1/dYM="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mo/FN199PU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 143,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mo/FN1/dYM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mn6Pt11xqo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9mkGj91fAsE="
+							},
+							"lineStyle": 2,
+							"points": "148:164;208:164",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mo/FN2AWsY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mp/LN2I+YY=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mp/K92GYIs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mp/LN2JPsw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mp/LN2I+YY="
+									},
+									"font": "Arial;13;0",
+									"left": 338,
+									"top": 34,
+									"width": 62.8037109375,
+									"height": 65,
+									"text": "Үзэж байгаа хичээлийн цагуудыг харах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 328,
+							"top": 24,
+							"width": 82.8037109375,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mp/LN2JPsw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mrqSt2ueY8=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mrqSd2s4Qs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mrqSt2vvc0=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mrqSt2ueY8="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mrqSd2s4Qs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 304,
+									"top": 87,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mrqSt2ueY8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mp/LN2I+YY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9mn6Pt11xqo="
+							},
+							"lineStyle": 2,
+							"points": "281:108;328:108",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mrqSt2vvc0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFl9mtxx926XPk=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mtxx924ZME="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFl9mtxx927yv4=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mtxx926XPk="
+									},
+									"font": "Arial;13;0",
+									"left": 338,
+									"top": 146,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Явцын дүн харах",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 328,
+							"top": 136,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mtxx927yv4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFl9mumVt3S/3o=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mfz5N09EZc="
+							},
+							"model": {
+								"$ref": "AAAAAAFl9mumVt3QEAg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFl9mumVt3T0rw=",
+									"_parent": {
+										"$ref": "AAAAAAFl9mumVt3S/3o="
+									},
+									"model": {
+										"$ref": "AAAAAAFl9mumVt3QEAg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 304,
+									"top": 140,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFl9mumVt3S/3o="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFl9mtxx926XPk="
+							},
+							"tail": {
+								"$ref": "AAAAAAFl9mn6Pt11xqo="
+							},
+							"lineStyle": 2,
+							"points": "281:161;328:161",
+							"nameLabel": {
+								"$ref": "AAAAAAFl9mumVt3T0rw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mi5at1Codo=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Бүртгүүлэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mj2Xt1UZHQ=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mi5at1Codo="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9mi5at1Codo="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mjXzt1LDrQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mjXzt1LDrQ=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Нэвтрэх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mkQS91lnAo=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mjXzt1LDrQ="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9mjXzt1LDrQ="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mkGj91dE60="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mkGj91dE60=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Профайл бөглөх",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mo/FN199PU=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mkGj91dE60="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9mkGj91dE60="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mn6Pt1zjek="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mn6Pt1zjek=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Хүүхэд рүүгээ эцэг эх болох хүсэлт явуулна",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mrqSd2s4Qs=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mn6Pt1zjek="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9mn6Pt1zjek="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mp/K92GYIs="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFl9mumVt3QEAg=",
+							"_parent": {
+								"$ref": "AAAAAAFl9mn6Pt1zjek="
+							},
+							"source": {
+								"$ref": "AAAAAAFl9mn6Pt1zjek="
+							},
+							"target": {
+								"$ref": "AAAAAAFl9mtxx924ZME="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mp/K92GYIs=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Үзэж байгаа хичээлийн цагуудыг харах"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFl9mtxx924ZME=",
+					"_parent": {
+						"$ref": "AAAAAAFl9mfz5N08bOk="
+					},
+					"name": "Явцын дүн харах"
+				}
+			]
+		}
+	]
+}

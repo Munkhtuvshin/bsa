@@ -1,0 +1,231 @@
+
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc} % UTF8 юникод текст оруулах
+\usepackage[T2A]{fontenc} % кирил үсгийн кодчилол
+\usepackage[mongolian]{babel} % олон хэлний текст
+\usepackage{pdfpages}
+\usepackage{graphicx} % зураг оруулах
+\usepackage{epstopdf}
+\usepackage{latexsym}
+\usepackage{amsmath} % гоё математикийн тэмдэг
+\usepackage{bm} % дармал математик
+\usepackage{graphicx}
+\usepackage{listings}
+
+\usepackage{listings}
+% Farben definieren
+\usepackage{xcolor}
+\definecolor{codeGray}{RGB}{240,240,240}
+\definecolor{codeBlack}{RGB}{0,0,0}
+\definecolor{codeRed}{RGB}{221,0,0}
+\definecolor{codeBlue}{rgb}{0,0,187}
+\definecolor{codeYellow}{RGB}{255,128,0}
+\definecolor{codeGreen}{RGB}{0,119,0}
+
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\apptocmd{\frame}{}{\justifying}{} 
+% … und zuweisen
+\lstset{%
+    language=PHP,%
+    %
+    % Farben, diktengleiche Schrift
+    backgroundcolor={\color{codeGray}},% 
+    basicstyle={\small\ttfamily\color{codeGreen}},% 
+    commentstyle={\color{codeYellow}},%
+    keywordstyle={\color{codeBlue}},%
+    stringstyle={\color{codeRed}},%
+    identifierstyle={\color{codeBlue}},%
+    %
+    % Zeilenumbrüche aktivieren, Leerzeichen nicht hervorheben
+    breaklines=true,%
+    showstringspaces=false,%
+    % 
+    % Listing-Caption unterhalb (bottom)
+    captionpos=b,%
+    % 
+    % Listing einrahmen
+    frame=single,%
+    rulecolor={\color{codeBlack}},%
+    % 
+    % winzige Zeilennummern links
+    numbers=left,%
+    numberstyle={\tiny\color{codeBlack}}%
+}
+
+\mode<presentation> {
+
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+\usetheme{Darmstadt}
+
+
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} 
+%\setbeamertemplate{footline}[page number] 
+
+%\setbeamertemplate{navigation symbols}{} 
+}
+
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+
+\title[Short title]{Raspberry pi дээр суурилсан хяналтын камер 
+}
+
+\author{\large Мэдээллийн Сүлжээ, Аюулгүй Байдлын Салбар\\ Системийн аюулгүй байдал} 
+\institute[UCLA] 
+{
+
+
+\textbf{Удирдагч багш:} Ч. Эрдэнэбат /док, дэд проф/ \\
+\textbf{Оюутан:} И. Нуваанчимэд \\ 
+
+}
+{\date{\tiny \today} }
+
+\begin{document}
+\defverbatim[colored]\lst{%
+\begin{lstlisting}[tabsize=8,basicstyle=\ttfamily]
+$result = $conn->query($sql);
+if ($result->num_rows > 0) 
+   while($row = $result->fetch_assoc()) {               
+       $_SESSION['name']=$row["name"];
+       $_SESSION['id']=$row["id"];
+       header("Location: main.php");
+   }
+\end{lstlisting}
+}
+
+\defverbatim[colored]\sessionOff{%
+\begin{lstlisting}[tabsize=8,basicstyle=\ttfamily]
+session_start();
+if (!$_SESSION["name"]) {
+	header("Location: index.php");
+}
+\end{lstlisting}
+}
+
+\defverbatim[colored]\sessionON{%
+\begin{lstlisting}[tabsize=8,basicstyle=\ttfamily]
+if ($_SESSION["name"]) {
+       header("Location: main.php");
+\end{lstlisting}
+}
+
+\defverbatim[colored]\html{%
+\begin{lstlisting}[tabsize=1,basicstyle=\ttfamily]
+<body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
+<div>
+	<img id="mjpeg_dest" src="./loading.jpg">
+ </div>
+</body>
+
+
+\end{lstlisting}
+}
+
+
+\defverbatim[colored]\js{%
+\begin{lstlisting}[tabsize=1,basicstyle=\ttfamily]
+var mjpeg_img; 
+function reload_img () {
+  mjpeg_img.src = "cam_pic.php?time=" + new Date().getTime();
+}
+function error_img () {
+  setTimeout("mjpeg_img.src = 'cam_pic.php?time=' + new Date().getTime();", 100);
+}
+function init() {
+  mjpeg_img = document.getElementById("mjpeg_dest");
+  mjpeg_img.onload = reload_img;
+  mjpeg_img.onerror = error_img;
+  reload_img();
+}
+\end{lstlisting}
+}
+
+
+\defverbatim[colored]\php{%
+\begin{lstlisting}[tabsize=1,basicstyle=\ttfamily]
+header("Content-Type: image/jpeg");
+if (isset($_GET["pDelay"]))
+{
+  $preview_delay = $_GET["pDelay"];
+} else {
+  $preview_delay = 10000;
+}
+usleep($preview_delay);
+readfile("/dev/shm/mjpeg/cam.jpg");
+\end{lstlisting}
+}
+
+
+
+
+
+
+
+
+\begin{frame}
+\titlepage 
+\end{frame}
+
+\begin{frame}
+\frametitle{Агуулга} 
+\tableofcontents 
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\include{chap1}
+%\include{bbt}
+
+\end{document} \grid

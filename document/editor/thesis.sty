@@ -1,0 +1,237 @@
+
+\oddsidemargin = .5in
+\textwidth = 6in
+
+\headheight = 0.2in
+\topskip = 0in
+\headsep = 0.1in
+\topmargin = .25in
+\textheight = 9in
+
+\floatsep = .3in
+\textfloatsep = \floatsep
+\intextsep = \floatsep 
+
+% Цагаан толгойн биш ишлэл авсан дарааллаар нь ном зүй гаргах бол
+% 'abbrv' -ийн оронд 'unsrt' -г хэрэглэ.
+%
+%\bibliographystyle{unsrt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% Бараг бүгдээрээ давхар мөрөөр бичигдэнэ.
+%
+\newcommand{\spacing}{1.5}
+\renewcommand{\baselinestretch}{\spacing}
+
+% Хөл бичлэгийг дан мөрөөр бичнэ.
+%
+\newcommand{\munfootnote}[1]{%
+	\renewcommand{\baselinestretch}{1.0}%
+	\normalsize
+	\footnote{#1}%
+	\renewcommand{\baselinestretch}{\spacing}%
+	\normalsize
+}
+
+% Дан мөрөөр бичигдэх ишлэл, түүнд хандах шошгыг энд тодорхойллоо.
+%
+\newenvironment{munquote}[1][]{%
+	\renewcommand{\baselinestretch}{1.0}%
+	\normalsize
+	\def\muncite{#1}
+	\vspace{1.5mm}
+	\begin{quote}\sl``}{''\muncite
+	\end{quote}
+	\renewcommand{\baselinestretch}{\spacing}%
+	\normalsize
+}
+
+% ШУТИС -ийн магистр, докторын сургалтаас
+% бичиг баримтанд тавигддаг шаардлагыг хангах команд.
+% Яаж ашиглахыг thesis.tex -ээс харна уу.
+%
+\newcommand{\thesistitle}[5]{%
+\thispagestyle{empty}
+\begin{center}
+
+\renewcommand{\baselinestretch}{1.0}%
+
+\vspace{\fill}
+
+\textbf{\Large #1}
+\renewcommand{\baselinestretch}{\spacing}%
+
+\vspace{1.0cm}
+
+Горилогч \\
+\copyright\ #2
+
+\vspace{2.0cm}
+
+Энэхүү бүтээл нь  \\
+#3ын зэрэг \\
+горилсон бүтээлд тавигдах  \\
+шаардлагыг бүрэн хангасан болно \\
+
+\vspace{4.0cm}
+
+#4 \\
+Шинжлэх Ухаан Технологийн Их Сургууль
+
+\vspace{1.0cm}
+
+#5 \\
+
+\vspace{\fill}
+
+Улаанбаатар хот
+\end{center}
+}
+
+% \munepsfig командыг EPS зугийг баримтанд оруулахдаа ашиглаж болно.
+% Ашиглах хэлбэр нь:
+%
+%	\munepsfig[args]{filename}{caption}
+%
+% энд:
+%	- 'args' нь нэмэлт аргументийг
+%	  шигтгэсэн \includegraphics командад өгнө. Ингэснээр зургийг
+%	  масштаблах, өнцгөөр эргүүлэх боломжтой.
+%	- 'filename' нь EPS форматтай зургийн 'figures'
+%	  хавтас дахь нэр. ('filename' нь өргөтгөсөн нэртэй байна.
+%         Ингэснээр .eps -с өөр форматтай зургийг ч оруулж болно.)
+%	- Зургийн файлын нэрийг 'fig:' маягийн шошго болгоно.
+%
+% Жишээ:
+% 	\munepsfig[scale=0.5,angle=90]{barchart.eps}{Хүн амын өсөлт}
+
+% EPS форматын 'figures/barchart.eps' зургийг 50% багасгаад
+% 90 градус эргүүлж "Хүн амын өсөлт" гэсэн тайлбартай гаргана.
+% Мөн энэ зураг руу Зураг~\ref{fig:barchart.eps} гэж хандаж болно.
+%
+\newcommand{\munepsfig}[3][scale=1.0]{%
+	\begin{figure}[!htbp]
+		\centering
+		\vspace{2mm}
+		\includegraphics[#1]{figures/#2}
+		\caption{#3}
+		\label{fig:#2}
+	\end{figure}
+}
+
+% \munlepsfig -ийг мөн хэвтээ горимонд ашиглаж болно.
+% Зураг үхэлдээ эргэсэн байдлаар харагдах болно. Аргумент нь
+% өмнөхтэй адил
+%
+\newcommand{\munlepsfig}[3][scale=1.0]{%
+	\begin{sidewaysfigure}[!htbp]
+		\centering
+		\vspace{2mm}
+		\includegraphics[#1]{figures/#2}
+		\caption{#3}
+		\label{fig:#2}
+	\end{sidewaysfigure}
+}
+
+% 'muntxtfig' орчинг 'текст' мэдээллийг зураг шиг гаргахад хэрэглэж болно.
+% Тухайлбал, програмын эх код. Ашиглахдаа:
+%
+%	\begin{muntxtfig}[spacing]{label}{caption}{width}
+%	  Текст
+%	\end{muntxtfig}
+%
+% энд:
+%	- 'spacing' мөр хооронд хэмжээ. Үүнийг baselinestretch
+%	  командад ашиглана. Аргументийг заагаагүй бол дан мөрөөр.
+%	- 'label' хандах шошго: Зураг~\ref{fig:label}.
+%	- 'caption' тайлбар.
+%	- 'width' текстийн өргөн
+%
+% Жишээ:
+% \begin{muntxtfig}[1.0]{code}{Hello World}{0.5\textwidth}
+%   void main(int argc, char *argv)
+%   ...
+% \end{muntxtfig}
+%
+\newenvironment{muntxtfig}[4][\spacing]{%
+	\begin{figure}[!htbp]
+		\centering
+		\def\muncaption{#3}%
+		\def\munlabel{#2}%
+		\renewcommand{\baselinestretch}{#1}%
+		\normalsize%
+		\begin{minipage}{#4}
+		\hrule \hrule
+		\bigskip
+}{%
+		\hrule \hrule
+		\end{minipage}
+		\renewcommand{\baselinestretch}{\spacing}%
+		\normalsize%
+		\caption{\muncaption}
+		\label{fig:\munlabel}
+	\end{figure}
+}
+
+% 'muntab' бол хүснэгт оруулах орчин. 
+% Ашиглахдаа:
+%
+%	\begin{muntab}{table_format}{label}{caption}
+%        хүснэгтийн агуулга
+%    \end{muntab}
+%
+% энд:
+%	- 'label' хүснэгт рүү хандах шошго: Хүснэгт~\ref{tab:label}
+%	- 'caption' хүснэгтийн дээр бичигдэх толгой-тайлбар.
+%
+%
+\newenvironment{muntab}[3]{%
+	\begin{table}[!htbp]
+		\centering
+		\caption{#3}
+		\label{tab:#2}
+		\vspace{2mm}
+		\begin{tabular}{#1}
+}{%
+		\end{tabular}
+	\end{table}
+}
+
+% 'munltab' бол muntab -тай төстэй. Ялгаа нь хүснэгтийг хэвтээгээр гаргана.
+%
+\newenvironment{munltab}[3]{%
+	\begin{sidewaystable}
+		\centering
+		\caption{#3}
+		\label{tab:#2}
+		\vspace{2mm}
+		\begin{tabular}{#1}
+}{%
+		\end{tabular}
+	\end{sidewaystable}
+}
+
+% \muneqn томьёо оруулах орчин.
+% Ашиглахдаа:
+%
+%	\begin{muneqn}{label}
+%         томьёо
+%	\end{muneqn}
+%
+% энд:
+%	- 'label' томьёо руу хандах шошго: Тэгшитгэл~\ref{eqn:label}
+%
+\newenvironment{muneqn}[1]{%
+	\begin{equation}
+		\label{eqn:#1}
+}{
+	\end{equation}
+}
+
+%
+% Теорем болон дүгэнлтийн тухайд.
+%
+\newtheorem{cor}{Corollary}
+\newtheorem{thm}{Theorem}

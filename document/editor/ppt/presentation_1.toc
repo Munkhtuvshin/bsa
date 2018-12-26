@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {mongolian}
+\beamer@sectionintoc {1}{\IeC {\CYRO }\IeC {\cyrr }\IeC {\cyrsh }\IeC {\cyri }\IeC {\cyrl } \IeC {\cyrh }\IeC {\cyrerev }\IeC {\cyrs }\IeC {\cyrerev }\IeC {\cyrg }}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{\IeC {\CYRZ }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyrg }\IeC {\cyro }}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{\IeC {\CYRZ }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyrt }}{4}{0}{1}
+\beamer@sectionintoc {2}{\IeC {\CYRE }\IeC {\cyrr }\IeC {\cyrotld }\IeC {\cyrn }\IeC {\cyrh }\IeC {\cyri }\IeC {\cyrishrt } \IeC {\cyrh }\IeC {\cyrerev }\IeC {\cyrs }\IeC {\cyrerev }\IeC {\cyrg }}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{\IeC {\CYRH }\IeC {\cyrya }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrt }\IeC {\cyrery }\IeC {\cyrn } \IeC {\cyrk }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{\IeC {\CYRT }\IeC {\cyrotld }\IeC {\cyrh }\IeC {\cyrotld }\IeC {\cyrotld }\IeC {\cyrr }\IeC {\cyrotld }\IeC {\cyrm }\IeC {\cyrzh }}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{\IeC {\CYRH }\IeC {\cyrya }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrt }\IeC {\cyrery }\IeC {\cyrn } \IeC {\cyrk }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrery }\IeC {\cyrn } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrishrt }\IeC {\cyrn } \IeC {\cyrh }\IeC {\cyrotld }\IeC {\cyrg }\IeC {\cyrzh }\IeC {\cyry }\IeC {\cyry }\IeC {\cyrl }\IeC {\cyrerev }\IeC {\cyrl }\IeC {\cyrt }}{10}{0}{2}
+\beamer@subsectionintoc {2}{4}{ Stream \IeC {\cyrh }\IeC {\cyri }\IeC {\cyrishrt }\IeC {\cyrh } \IeC {\cyrh }\IeC {\cyrerev }\IeC {\cyrs }\IeC {\cyrerev }\IeC {\cyrg }}{12}{0}{2}
+\beamer@sectionintoc {3}{\IeC {\CYRD }\IeC {\cyry }\IeC {\cyrg }\IeC {\cyrn }\IeC {\cyrerev }\IeC {\cyrl }\IeC {\cyrt }}{15}{0}{3}

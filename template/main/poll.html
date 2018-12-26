@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html lang='en' prefix='op: http://media.facebook.com/op#'>
+<head>
+<!-- Application Layout -->
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4474f5c124","applicationID":"77339425","transactionName":"dV0NRxBfDVxcEBdFV0VBClwMQ05eXBU=","queueTime":4,"applicationTime":196,"agent":""}</script>
+
+<link href='//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="/assets/ie8-overrides-4268b880fea6f0682d37ca9847f1875f1f2c718213c90ac59f3c95944f3458f0.css" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" media="screen" href="/assets/ie9-overrides-b8e7e225789627bd3ea6ec49cbc29b985cfd360df85a9ec0de123549e06d3a40.css" />
+<![endif]-->
+<script data-apikey='bd50e692f9d10cb2ce279eeabc99392b' src='//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js'></script>
+<style>
+  .async-hide{ opacity: 0 !important}
+</style>
+<script>
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-P7X8CV5':true});
+</script>
+<link rel="stylesheet" media="screen" href="/assets/pages/sessions-new-5dcb597bf758be9b3d73192d91924959d2fc59bcb506bb27a92effaa6ee22570.css" />
+<title>Sign In to POWr</title>
+<meta content='Sign into your POWr account.' name='description'>
+
+<link href='https://www.powr.io/users/sign_in' rel='canonical'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="babUuoa7JKM7B7c76rTYCYU1p5O4pLBbrAbxNeet4w4PlkT1ntJniQMVKJ9jhLMZ4Rc8a1eay3kCj9EECwefew==" />
+</head>
+<body id='sessions-new'>
+<div id='dynamicStyle'></div>
+<div class='powrStyle'>
+<div aria-hidden='true' class='modal fade bs-example-modal-sm' id='sign-in-modal' role='dialog' tabindex='-1'>
+<div class='modal-dialog modal-sm'>
+<div class='signInContent with_photo'>
+<div class='modal-content powrStyle theme-3'>
+<div class='tab-content'>
+<div class='tab-pane' id='signin'>
+<div class='form-panel'>
+<div class='modal-header'>
+<div class='closeModal'>
+<div class='successfulSign text-center hid'>
+<i class='fa fa-check-circle'></i>
+Success!
+</div>
+</div>
+</div>
+<div class='tab-content-title text-center' data-save-work='Save your work!'>
+Log In
+</div>
+<div class='tab-content-body'>
+<div class='sign-in'>
+<form id="sign-in-form" class="form-horizontal sign-in-container" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xUzzSvK5+v05nxrB16CiZlKpcyN6adYegER+ieV7LhGnfGMF6tC51wGNhWVekMl2Novo25VXrTwuzV64CdFSZA==" /><div class='pane'>
+<div class='saveProgress margin-bottom-l text-center'>
+<div class='saveProgressText hid'>
+Sign in to save your progress
+</div>
+</div>
+<div class='form-group socialSignIn'>
+<div class='button button-facebook facebookSignIn margin-bottom-s' data-fb-cont='Continue with Facebook'>
+<img class='FBimage' src='https://s3-us-west-1.amazonaws.com/powr/modal/FacebookIcon.png'>
+<span class='text'>
+Log In with Facebook
+</span>
+</div>
+<div class='button googleSignIn button-secondary-outline margin-bottom-s' data-google-cont='Continue with Google'>
+<img class='googleImg' src='https://s3-us-west-1.amazonaws.com/powr/modal/GoogleIcon.png'>
+<span class='text'>
+Log In with Google
+</span>
+</div>
+<div class='button button-yahoo yahooSignIn margin-bottom-s' data-yahoo-cont='Continue with Yahoo'>
+<i class='fa fa-yahoo'></i>
+<span class='text'>
+Log In with Yahoo
+</span>
+</div>
+<div class='or row margin-m'>
+<div class='lineHorizontal col-xs-5 margin-top-s'></div>
+<div class='col-xs-2'>
+or
+</div>
+<div class='lineHorizontal col-xs-5 margin-top-s'></div>
+</div>
+<div class='input-group margin-bottom-s text-input-container'>
+<input autofocus="autofocus" required="required" placeholder="Email" id="sign_in_email" class="form-control validateEmail text-input" aria-describedby="basic-addon1" type="email" value="" name="user[email]" />
+</div>
+<div class='input-group margin-bottom-s text-input-container'>
+<input required="required" placeholder="Password" id="new_sign_in_password" class="form-control validatePassword text-input" aria-describedby="basic-addon1" type="password" name="user[password]" />
+</div>
+<div class='flash-error hid'></div>
+</div>
+<div class='form-group remember-me hid'>
+<div class='col-xs-12'>
+<input name="user[remember_me]" type="hidden" value="0" /><input id="sign_in_remember_me" type="checkbox" value="1" checked="checked" name="user[remember_me]" />
+<label for="user_remember_me">Remember me</label>
+</div>
+</div>
+<div class='col-sm-12'>
+</div>
+<div class='form-group'>
+<input type="submit" name="commit" value="Log In" class="button button-primary margin-bottom-s" id="sign-in-submit" />
+</div>
+<div class='sexy-loader hid'>
+<div class="loader">
+  <div class="small circle"></div>
+  <div class="medium circle"></div>
+  <svg version="1.1" id="Layer_1" class="powr-logo-icon"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<path d="M546.521,74.469v236.123H477.53V74.443C325.272,91.428,203.937,221.798,203.937,380.142c0,0.85,0.004,2.759,0.004,2.869
+	v418.024c0,0.7,0.16,1.59,0.347,2.267c1.235,4.459,3.211,7.617,4.957,10.21c2.167,3.219,4.1,5.444,5.237,6.723
+	c66.51,74.817,166.394,115.695,271.208,132.901c13.578,2.229,26.779-4.354,28.694-19.888c0.547-4.435,0.43-245.505,0.43-245.505
+	c0-0.015,0.021-0.026,0.035-0.026c163.53-1.441,296.705-130.467,304.576-292.383C827.41,231.111,704.727,92.234,546.521,74.469
+	 M512.076,604.368c-124.581,0-225.493-100.993-225.493-225.576c0-87.667,50.583-163.654,123.145-200.985v80.419
+	c-33.307,28.833-54.789,71.539-54.789,119.201c0,86.828,70.348,157.219,157.178,157.219c86.83,0,157.042-70.392,157.042-157.219
+	c0-47.641-20.339-90.33-54.835-119.162V177.83c72.56,37.342,123.171,113.312,123.171,200.963
+	C737.495,503.375,636.657,604.368,512.076,604.368"/>
+</svg>
+  <div class="medium circle"></div>
+  <div class="small circle"></div>
+</div>
+
+</div>
+<div class='form-group small text-center'>
+<a data-toggle='tab' href='#newPW'>
+<span class='link resetPassword'>
+Reset Password
+</span>
+</a>
+</div>
+</div>
+</form></div>
+<div class='sign-in-footer pad-m theme-4 text-center'>
+Don&#39;t have an account?
+<span class='link signUpLink'>
+Sign Up For Free
+</span>
+</div>
+
+</div>
+</div>
+<div class='promo-panel sign-in-promo'>
+<div class='business-promo text-center'>
+<h6 class='contrast'>POWr Business</h6>
+<h5 class='margin-top-m contrast'>Get unlimited access to the entire suite of POWr website plugins.</h5>
+<a href='http://www.powr.io/business' target='_blank'>
+<div class='button button-primary-outline contrast text-center'>
+Learn More
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class='tab-pane active' id='signup'>
+<div class='form-panel'>
+<div class='modal-header'>
+<div class='closeModal'>
+<div class='successfulSign text-center hid'>
+<i class='fa fa-check-circle'></i>
+Success!
+</div>
+</div>
+</div>
+<div class='tab-content-title text-center' data-save-work='Save your work!'>
+Sign Up For Free
+</div>
+<div class='tab-content-body'>
+<div class='sign-up'>
+<form id="sign-up-form" class="form-horizontal" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="27SGveeVv+JIEVFHSauxkWMGjRmKizRWu04sAviJ+nG5hBby//z8yHADzuPAm9qBByQW4WW1T3QVxwwzFCOGBA==" /><div class='pane'>
+<div class='saveProgress margin-bottom-l text-center'>
+<div class='saveProgressText hid'>
+Sign up to save your progress
+</div>
+</div>
+<div class='form-group socialSignIn'>
+<div class='button button-facebook facebookSignIn margin-bottom-s' data-fb-cont='Continue with Facebook'>
+<img class='FBimage' src='https://s3-us-west-1.amazonaws.com/powr/modal/FacebookIcon.png'>
+<span class='text'>
+Sign Up with Facebook
+</span>
+</div>
+<div class='button googleSignIn button-secondary-outline margin-bottom-s' data-google-cont='Continue with Google'>
+<img class='googleImg' src='https://s3-us-west-1.amazonaws.com/powr/modal/GoogleIcon.png'>
+<span class='text'>
+Sign Up with Google
+</span>
+</div>
+<div class='or row margin-m'>
+<div class='lineHorizontal col-xs-5 margin-top-s'></div>
+<div class='col-xs-2'>
+or
+</div>
+<div class='lineHorizontal col-xs-5 margin-top-s'></div>
+</div>
+<div class='input-group margin-bottom-s text-input-container'>
+<input id="new_registration_email" autofocus="autofocus" required="required" placeholder="Email" class="form-control validateEmail text-input" aria-describedby="basic-addon1" type="email" value="" name="user[email]" />
+</div>
+<div class='input-group margin-bottom-s text-input-container'>
+<input id="new_registration_password" required="required" placeholder="Password" class="form-control validatePassword text-input" aria-describedby="basic-addon1" type="password" name="user[password]" />
+</div>
+<div class='flash-error hid'></div>
+</div>
+<div class='form-group hid'>
+<div class='col-xs-12'>
+<input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" checked="checked" name="user[remember_me]" id="user_remember_me" />
+<label for="user_remember_me">Remember me</label>
+</div>
+</div>
+<div class='col-sm-12'>
+</div>
+<div class='form-group signupbtn' data-save-btn='Save'>
+<input type="hidden" name="user[rid]" id="user_rid" />
+<input type="submit" name="commit" value="Sign Up For Free" class="button button-primary margin-bottom-s" id="sign-up-submit" />
+</div>
+<div class='sexy-loader hid'>
+<div class="loader">
+  <div class="small circle"></div>
+  <div class="medium circle"></div>
+  <svg version="1.1" id="Layer_1" class="powr-logo-icon"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<path d="M546.521,74.469v236.123H477.53V74.443C325.272,91.428,203.937,221.798,203.937,380.142c0,0.85,0.004,2.759,0.004,2.869
+	v418.024c0,0.7,0.16,1.59,0.347,2.267c1.235,4.459,3.211,7.617,4.957,10.21c2.167,3.219,4.1,5.444,5.237,6.723
+	c66.51,74.817,166.394,115.695,271.208,132.901c13.578,2.229,26.779-4.354,28.694-19.888c0.547-4.435,0.43-245.505,0.43-245.505
+	c0-0.015,0.021-0.026,0.035-0.026c163.53-1.441,296.705-130.467,304.576-292.383C827.41,231.111,704.727,92.234,546.521,74.469
+	 M512.076,604.368c-124.581,0-225.493-100.993-225.493-225.576c0-87.667,50.583-163.654,123.145-200.985v80.419
+	c-33.307,28.833-54.789,71.539-54.789,119.201c0,86.828,70.348,157.219,157.178,157.219c86.83,0,157.042-70.392,157.042-157.219
+	c0-47.641-20.339-90.33-54.835-119.162V177.83c72.56,37.342,123.171,113.312,123.171,200.963
+	C737.495,503.375,636.657,604.368,512.076,604.368"/>
+</svg>
+  <div class="medium circle"></div>
+  <div class="small circle"></div>
+</div>
+
+</div>
+<p class='text-center terms'>
+By creating an account, you agree to our <u><a href='/terms' target='_blank'>Terms of Service</a></u> and <u><a href='/privacy' target='_blank'>Privacy Policy</a></u>.
+</p>
+</div>
+</form></div>
+<div class='sign-in-footer pad-m theme-4 text-center'>
+Already have an account?
+<span class='link signInLink'>
+Log In
+</span>
+</div>
+
+</div>
+</div>
+<div class='promo-panel sign-up-promo'>
+<div class='testimonial margin-m'>
+POWr has enhanced my website and makes my life easier in the process, which let's face it, is what we all need more of in our lives!
+<div class='author margin-top-s'>
+Lisa Hardy, <span>Good World Graphics</span>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane pad-l' id='newPW'>
+<div id='resetPassword'>
+<form class="new_user" id="new_user" action="/users/wills_password_reset" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mkHeTy8nBxPL9Q58bSPCS6LI/oubLsSHuDExtMQ3DLP4cU4AN05EOfPnkdjkE6lbxuplc3QQv6UWuBGFKJ1wxg==" />
+<div class='saveProgress text-center'>
+Reset Password
+</div>
+<div class='form-group resetPassword'>
+<div class='input-group text-component margin-s'>
+<input autofocus="autofocus" required="required" placeholder="Email" id="reset_password_email" class="form-control validateEmail text-component__input" aria-describedby="basic-addon1" type="email" value="" name="user[email]" />
+</div>
+<div class='input-group margin-s'>
+<input type="submit" name="commit" value="Send me password reset instructions" class="powrbutton col-sm-12" />
+</div>
+</div>
+</form></div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class='nav-mobile-menu theme-3 text-center' data-target='nav-mobile-menu'>
+<div class='menu-close text-right'>
+<i class='fa fa-close'></i>
+</div>
+<div class='signedIn hid'>
+<a class='nav-item' href='/users/me?'>
+Dashboard
+</a>
+<a class='nav-item' href='/users/me/account?'>
+My Account
+</a>
+<a class='nav-item' href='/pricing?'>
+Upgrade
+</a>
+<a class='nav-item triggerHelp' href='/knowledge-base' target='_blank'>
+Help
+</a>
+<a class="user-sign-out nav-item" rel="nofollow" data-method="delete" href="/users/sign_out">Sign Out</a>
+</div>
+<a class='signedOut hid signUpTab nav-btn button button-primary margin-right-s' data-target='#sign-in-modal' data-toggle='modal' href='#'>
+Sign Up FREE
+</a>
+<a class='signedOut hid signInTab topnavsignin button button-secondary-outline' data-target='#sign-in-modal' data-toggle='modal' href='#'>
+Log In
+</a>
+</div>
+
+<nav class='topbar-nav'>
+<div class='nav-logo nav-item'>
+<a class='nav-item margin-right-m' href='/'>
+<i class='icon-logo'></i>
+<span class='type-logo'>POWr</span>
+<span class='editor-logo'>Editor</span>
+</a>
+</div>
+<div class='nav-account-settings'>
+<div class='nav-mobile' data-target='nav-mobile'>
+<i class='fa fa-bars margin-right-xs'></i>
+Menu
+</div>
+<div class='nav-desktop'>
+<div class='signedIn hid'>
+<a class='nav-item dashboard-link margin-right-m' href='/users/me?'>
+<i class='fa fa-dashboard dashboard-link margin-right-xs'></i>
+Dashboard
+</a>
+<a class='nav-item margin-right-m triggerHelp' href='/knowledge-base' target='_blank'>
+<i class='fa fa-question-circle margin-right-xs'></i>
+Help
+</a>
+<a class='nav-item button-s button-upgrade margin-right-m' href='/pricing?'>
+<i class='fa fa-star margin-right-xs'></i>
+Upgrade
+</a>
+<div class='nav-user-settings nav-item' data-target='nav-user'>
+<div class='user-image-container margin-right-s'>
+<div class='user-image' data-target='user-img-thumb'></div>
+</div>
+<div class='userAccountWithoutArrow'></div>
+<div class='user-account-popover' data-target='user-account-popover'>
+<div class='user-account'>
+<div class='user-account-image'>
+<div class='user-image-container margin-bottom-s'>
+<div class='user-image' data-target='user-img-thumb'></div>
+</div>
+</div>
+<div class='user-account-details'>
+<span class='userAccountWithoutArrow'></span>
+<span class='member-since'>Member since </span>
+<br>
+<a class='button-s button-primary margin-top-m' href='/users/me/account?'>
+My Account
+</a>
+</div>
+</div>
+<a class="user-sign-out pad-v-s" rel="nofollow" data-method="delete" href="/users/sign_out">Sign Out</a>
+</div>
+</div>
+</div>
+<a class='signedOut hid signUpTab nav-btn button button-primary margin-right-s' data-target='#sign-in-modal' data-toggle='modal' href='#'>
+Sign Up FREE
+</a>
+<a class='signedOut hid signInTab topnavsignin button button-secondary-outline' data-target='#sign-in-modal' data-toggle='modal' href='#'>
+Log In
+</a>
+</div>
+</div>
+</nav>
+
+<div class='site-wrapper'>
+<div class='box signbox'></div>
+
+</div>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+<!--[if IE 8]>
+<script src="/javascripts/ie8-overrides.js"></script>
+<![endif]-->
+<script async='async' defer='defer' src='//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'></script>
+<script src="/assets/packs/commons-4322a8de5a4f7da036f8.js"></script>
+<script src="/assets/packs/sessions-new-225a91e57cac5cb273a2.js"></script>
+<script>
+  CURRENT_USER = null;
+  ENVIRONMENT = "production";
+  HOST = "";
+  IS_EU = JSON.parse("false");
+</script>
+
+<script>
+  $('#sign-in-modal').modal('show');
+</script>
+<script>
+  $(function(){
+    $('[data-target="nav-user"]').on('click', function() {
+      $('[data-target="user-account-popover"]').toggleClass('is-open');
+    });
+    $('[data-target="nav-mobile"]').on('click', function() {
+      $('.nav-mobile-menu').fadeIn('fast');
+    });
+    $('.menu-close').on('click', function() {
+      $('.nav-mobile-menu').fadeOut('fast');
+    });
+    // so the upgrade button in the nav triggers the upgrade panel in standalone and not redirect the user to the pricing page
+    if( $('#apps-standalone').length > 0) {
+      $('.editor-logo').show();
+      $('.nav-item.button-upgrade').on('click', function() {
+        $('.nav-item.button-upgrade').removeAttr('href')
+        $('.triggerPremium').trigger('click')
+        $('.modalPanel:not(.right)').removeClass('show');
+        $('.upgradePanel').addClass('show');
+        doProactiveChat();
+      });
+    }
+  })
+</script>
+
+</body>
+</html>

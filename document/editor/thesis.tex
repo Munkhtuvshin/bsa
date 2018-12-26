@@ -1,0 +1,131 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[utf8]{inputenc} % UTF8 юникод текст оруулах
+
+\usepackage[T2A]{fontenc} % кирил үсгийн кодчилол
+\usepackage[mongolian]{babel} % олон хэлний текст
+\usepackage{pdfpages}
+\usepackage{graphicx} % зураг оруулах
+\usepackage{epstopdf}
+\usepackage{latexsym}
+\usepackage{rotating} % эргүүлэх
+\usepackage{fancybox} % хүрээлэх
+\usepackage{amsmath} % гоё математикийн тэмдэг
+\usepackage{bm} % дармал математик
+\usepackage{color} % өнгөөр бичих
+\usepackage{fancyhdr} % хуудасны хөл, толгой
+%\usepackage[backend=biber, url=true, natbib=true]{biblatex}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+\usepackage{multirow}
+%\bibliographystyle{plain}
+%\bibliography{ref.bib}
+%\addbibresource{ref.bib}
+\bibliographystyle{abbrv}
+
+\usepackage{pgf}
+\usepackage{tikz} % зураг зурах
+\usetikzlibrary{arrows,automata}
+
+\usepackage{thesis} % ШУТИС -ийн тезисийн формат
+
+\pagestyle{fancy}
+
+
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2    
+}
+
+\lstset{
+	language=php, %% Troque para PHP, C, Java, etc... bash é o padrão
+	basicstyle=\ttfamily\small,
+	numberstyle=\footnotesize, 
+	numbers=left,
+	    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+	frame=single,
+	tabsize=2,
+	rulecolor=\color{black!30},
+	title=\lstname,
+	escapeinside={\%*}{*)},
+	breaklines=true,
+	breakatwhitespace=true,
+	framextopmargin=2pt,
+	framexbottommargin=2pt,
+	extendedchars=false,
+	inputencoding=utf8
+}
+%\lstset{style=mystyle}
+
+\usepackage{url} % hyperref works too
+\urlstyle{same}
+
+
+\lstset{language=C++,texcl=true}
+
+\begin{document}
+
+\pagenumbering{roman}
+
+% Гарчиг, зохиогч, горилсон зэрэг, тэнхим/багийн нэр болон он сарыг оруулах.
+% Оруулсны дараах байдал:
+%\thesistitle
+%	{Диссертаци/тезисийн нэр}
+%	{Зохиогчийн нэр}
+%	{Горилсон зэрэг}
+%	{Тэнхим/багийн нэр}
+%	{Огноо}
+%\thesistitle командын тодорхойлолт thesis.sty -д байгаа бөгөөд
+% өөр бусад тохиргоог энд хийж болно.
+
+\includepdf[page={1}]{Nvvr.pdf}
+%\includepdf[page={1-5,9,11,15,19,23,24,29,30,32,34,35-54}]{last.pdf}
+%\includepdf[page={6-8,10,12-14,16-18,20-22,25-28,31,33}]{last.pdf}
+\include{abstract}
+\include{contents}
+\include{tables}
+\include{figures}
+\include{bib}
+
+\pagenumbering{arabic}
+\include{chap1}
+\include{chap2}
+\include{chap3}
+\include{chap4}
+\include{chap5}
+\include{appendix}
+%\include{bib1}
+
+
+% Хэрэв хавсралт байхгүй бол дараах мөрүүдийг хасаж болно.
+% Олон хавсралттай бол нэмэж болно.
+%\appendix
+
+%\include{apdxb}
+
+\end{document}

@@ -1,0 +1,105 @@
+[
+    {
+        "title":"Сургууль",
+        "link":"/school/school",
+        "icon":"bullseye"
+    },
+    {
+        "title":"ХИЧЭЭЛ"
+    },
+    {
+        "title":"Хичээлийн лавлах",
+        "link":"/course/course",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Хичээл",
+        "link":"/course/class",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Багшийн хуваарь",
+        "link":"/schedule/teacher-schedule",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Оюутны хуваарь",
+        "link":"/schedule/student-schedule",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Хичээлийн материал",
+        "link":"/lesson/lesson",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Журнал",
+        "link":"/grade/grade",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Цагийн тооцоо",
+        "link":"/credit/credit",
+        "icon":"bullseye"
+    },
+    {
+        "title":"СОЦИАЛ"
+    },
+    {
+        "title":"Бүлэг",
+        "link":"/group/group",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Санал асуулга",
+        "link":"/poll/poll",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Судалгаа",
+        "link":"/survey/survey",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Ажлын жагсаалт",
+        "link":"/todo/todo",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Сэтгэгдэл",
+        "link":"/comment/comment",
+        "icon":"bullseye"
+    },
+    {
+        "title":"Чат",
+        "link":"/chat/chat",
+        "icon":"bullseye"
+    },
+    {
+        "title":"ЛАВЛАХ МЭДЭЭЛЭЛ"
+    },
+    {
+        "title":"Хичээл орох төрөл",
+        "link":"/general/class-type"
+    },
+    {
+        "title":"Хичээлийн төрөл",
+        "link":"/general/course-type"
+    },
+    {
+        "title":"Хичээлийн жилийн улирал",
+        "link":"/general/season"
+    },
+    {
+        "title":"Сургуулийн бүтцийн нэгж",
+        "link":"/general/division-type"
+    },
+    {
+        "title":"Засаг захиргааны нэгж",
+        "link":"/general/address"
+    },
+    {
+        "title":"Хүснэгт",
+        "link":"/general/table"
+    }
+]
